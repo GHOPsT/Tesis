@@ -58,11 +58,14 @@ const HospitalMap = () => {
 
   useEffect(() => {
     fetch('/data/lima_hospitals.geojson')
-      .then(res => res.json())
-      .then(json => {
-        setData(json);
-        setHospitalsData(processHospitalData(json));
-      });
+    .then(res => res.json())
+    .then(json => {
+      setData(json);
+      setHospitalsData(processHospitalData(json));
+    })
+    .catch(err => {
+      console.error('Error cargando el archivo GeoJSON:', err);
+    });
   }, [processHospitalData]);
 
   // Buscador
@@ -105,24 +108,86 @@ const HospitalMap = () => {
     }
   }, [hospitalsData]);
 
+   // Nueva función para manejar la tecla Enter
+   const handleKeyPress = useCallback((e) => {
+    if (e.key === 'Enter' && searchTerm.trim() !== '') {
+      e.preventDefault();
+      
+      // Buscar el hospital que mejor coincida
+      const matchedHospital = Object.keys(hospitalsData).find(name =>
+        name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+
+      if (matchedHospital) {
+        handleSearchSelect(matchedHospital);
+      } else {
+        // Mostrar mensaje si no se encuentra
+        alert('Hospital no encontrado. Intente con otro nombre.');
+      }
+    }
+  }, [searchTerm, hospitalsData, handleSearchSelect]);
+
   return (
-    <div style={{ display: 'flex', height: '100vh', flexDirection: 'column' }}>
-      {/* Barra de búsqueda */}
-      <div style={{ padding: '10px', backgroundColor: '#f8f9fa', borderBottom: '1px solid #ddd' }}>
-        <div style={{ position: 'relative', maxWidth: '800px', margin: '0 auto' }}>
+    <div style={{ 
+      display: 'flex', 
+      height: '100vh', 
+      flexDirection: 'column',
+      fontFamily: '"Segoe UI", Roboto, sans-serif'
+    }}>
+      {/* Cabecera mejorada */}
+      <div style={{
+        backgroundColor: '#2c3e50',
+        color: 'white',
+        padding: '15px 20px',
+        boxShadow: '0 2px 10px rgba(0,0,0,0.2)'
+      }}>
+        <h1 style={{ 
+          margin: 0, 
+          fontSize: '24px',
+          display: 'flex',
+          alignItems: 'center'
+        }}>
+          <span style={{ 
+            backgroundColor: '#3498db',
+            borderRadius: '50%',
+            width: '40px',
+            height: '40px',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginRight: '10px',
+            fontSize: '20px'
+          }}>🏥</span>
+          Localizador de Hospitales
+        </h1>
+      </div>
+  
+      {/* Barra de búsqueda mejorada */}
+      <div style={{ 
+        padding: '15px',
+        backgroundColor: '#3498db',
+        borderBottom: '1px solid #2980b9'
+      }}>
+        <div style={{
+          maxWidth: '800px',
+          margin: '0 auto',
+          position: 'relative'
+        }}>
           <input
             type="text"
-            placeholder="Buscar hospital..."
+            placeholder="🔍 Buscar hospital por nombre, distrito o especialidad..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyPress={handleKeyPress}
             style={{
               width: '100%',
-              padding: '12px 20px',
+              padding: '12px 20px 12px 45px',
               fontSize: '16px',
-              border: '1px solid #ddd',
-              borderRadius: '25px',
+              border: 'none',
+              borderRadius: '30px',
               outline: 'none',
-              boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
+              boxShadow: '0 2px 15px rgba(0,0,0,0.1)',
+              background: 'white'
             }}
           />
           {suggestions.length > 0 && (
@@ -132,39 +197,61 @@ const HospitalMap = () => {
               left: 0,
               right: 0,
               backgroundColor: 'white',
-              border: '1px solid #ddd',
-              borderRadius: '0 0 5px 5px',
-              maxHeight: '200px',
+              border: '1px solid #e0e0e0',
+              borderRadius: '0 0 10px 10px',
+              maxHeight: '250px',
               overflowY: 'auto',
               zIndex: 1000,
               margin: 0,
               padding: 0,
               listStyle: 'none',
-              boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+              boxShadow: '0 5px 15px rgba(0,0,0,0.1)'
             }}>
               {suggestions.map((hospital, index) => (
                 <li
                   key={index}
                   onClick={() => handleSearchSelect(hospital)}
                   style={{
-                    padding: '10px 20px',
+                    padding: '12px 20px',
                     cursor: 'pointer',
+                    borderBottom: '1px solid #f0f0f0',
+                    transition: 'background 0.2s',
                     ':hover': {
-                      backgroundColor: '#f0f0f0'
+                      backgroundColor: '#f5f5f5'
+                    },
+                    ':last-child': {
+                      borderBottom: 'none'
                     }
                   }}
                 >
-                  {hospital}
+                  <div style={{ fontWeight: '500', color: '#2c3e50' }}>{hospital}</div>
+                  <div style={{ 
+                    fontSize: '14px', 
+                    color: '#7f8c8d',
+                    marginTop: '3px'
+                  }}>
+                    {hospitalsData[hospital]?.district || 'Lima'} • {hospitalsData[hospital]?.specialties?.length || 0} especialidades
+                  </div>
                 </li>
               ))}
             </ul>
           )}
         </div>
       </div>
-
-      <div style={{ display: 'flex', flex: 1 }}>
-        {/* Mapa */}
-        <div style={{ flex: 2, border: '1px solid #ccc', margin: '10px' }}>
+  
+      <div style={{ 
+        display: 'flex', 
+        flex: 1,
+        backgroundColor: '#f5f7fa'
+      }}>
+        {/* Mapa mejorado */}
+        <div style={{ 
+          flex: 2, 
+          margin: '15px',
+          borderRadius: '10px',
+          overflow: 'hidden',
+          boxShadow: '0 3px 10px rgba(0,0,0,0.1)'
+        }}>
           <MapContainer 
             center={[-12.0464, -77.0428]} 
             zoom={11} 
@@ -172,7 +259,7 @@ const HospitalMap = () => {
             ref={mapRef}
           >
             <TileLayer
-              attribution='&copy; OpenStreetMap'
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             {data?.features?.map((feature) => {
@@ -186,86 +273,215 @@ const HospitalMap = () => {
                     click: () => handleMarkerClick(feature),
                   }}
                 >
-                  <Popup>{name}</Popup>
+                  <Popup style={{
+                    fontWeight: 'bold',
+                    fontSize: '14px'
+                  }}>{name}</Popup>
                 </Marker>
               );
             })}
           </MapContainer>
         </div>
-
-        {/* Información del Centro de Salud */}
+  
+        {/* Panel de información mejorado */}
         <div style={{ 
           flex: 1, 
-          border: '1px solid #ccc', 
-          margin: '10px', 
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-          overflowY: 'auto'
+          margin: '15px',
+          borderRadius: '10px',
+          backgroundColor: 'white',
+          boxShadow: '0 3px 10px rgba(0,0,0,0.1)',
+          overflowY: 'auto',
+          display: 'flex',
+          flexDirection: 'column'
         }}>
-          <h2 style={{ color: '#2c3e50', marginBottom: '20px' }}>Información del Centro de Salud</h2>
-          
-          {selectedHospital ? (
-            <div>
-              <h3 style={{ 
-                color: '#3498db',
-                padding: '10px',
-                backgroundColor: '#f8f9fa',
-                borderRadius: '5px'
-              }}>
-                {selectedHospital.name}
-              </h3>
-              
-              <button
-                onClick={() => setShowSpecialties(!showSpecialties)}
-                style={{
-                  padding: '10px 20px',
-                  backgroundColor: '#3498db',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  fontWeight: 'bold',
-                  margin: '15px 0',
-                  transition: 'all 0.3s'
-                }}
-              >
-                {showSpecialties ? 'Ocultar Especialidades ▲' : 'Mostrar Especialidades ▼'}
-              </button>
-              
-              {showSpecialties && (
+          <div style={{
+            padding: '20px',
+            borderBottom: '1px solid #eee'
+          }}>
+            <h2 style={{ 
+              color: '#2c3e50',
+              margin: '0 0 15px 0',
+              paddingBottom: '10px',
+              borderBottom: '2px solid #3498db',
+              display: 'flex',
+              alignItems: 'center'
+            }}>
+              <span style={{ marginRight: '10px' }}>🏥</span>
+              Información del Centro
+            </h2>
+            
+            {selectedHospital ? (
+              <div>
                 <div style={{ 
+                  backgroundColor: '#f8fafc',
+                  padding: '15px',
+                  borderRadius: '8px',
+                  marginBottom: '15px'
+                }}>
+                  <h3 style={{ 
+                    color: '#3498db',
+                    margin: '0 0 10px 0',
+                    fontSize: '20px'
+                  }}>
+                    {selectedHospital.name}
+                  </h3>
+                  
+                  <div style={{ 
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: '8px',
+                    marginBottom: '15px'
+                  }}>
+                    <span style={{
+                      backgroundColor: '#e3f2fd',
+                      color: '#1976d2',
+                      padding: '5px 10px',
+                      borderRadius: '15px',
+                      fontSize: '13px',
+                      display: 'inline-flex',
+                      alignItems: 'center'
+                    }}>
+                      📍 {selectedHospital.district || 'Lima'}
+                    </span>
+                  </div>
+                </div>
+                
+                <button
+                  onClick={() => setShowSpecialties(!showSpecialties)}
+                  style={{
+                    width: '100%',
+                    padding: '12px',
+                    backgroundColor: showSpecialties ? '#e74c3c' : '#2ecc71',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '6px',
+                    cursor: 'pointer',
+                    fontSize: '15px',
+                    fontWeight: '600',
+                    marginBottom: '15px',
+                    transition: 'all 0.3s',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    ':hover': {
+                      opacity: 0.9
+                    }
+                  }}
+                >
+                  {showSpecialties ? (
+                    <>
+                      <span style={{ marginRight: '8px' }}>▲</span> Ocultar Especialidades
+                    </>
+                  ) : (
+                    <>
+                      <span style={{ marginRight: '8px' }}>▼</span> Ver Especialidades ({selectedHospital.specialties?.length || 0})
+                    </>
+                  )}
+                </button>
+                
+                {showSpecialties && (
+                  <div style={{ 
+                    backgroundColor: '#f8fafc',
+                    padding: '15px',
+                    borderRadius: '8px'
+                  }}>
+                    <h4 style={{ 
+                      color: '#2c3e50',
+                      margin: '0 0 15px 0',
+                      fontSize: '16px',
+                      display: 'flex',
+                      alignItems: 'center'
+                    }}>
+                      <span style={{ marginRight: '8px' }}>🩺</span>
+                      Especialidades Médicas
+                    </h4>
+                    <ul style={{ 
+                      listStyle: 'none', 
+                      padding: 0,
+                      margin: 0,
+                      display: 'grid',
+                      gap: '10px'
+                    }}>
+                      {selectedHospital.specialties.map((specialty, index) => (
+                        <li key={index} style={{ 
+                          backgroundColor: 'white',
+                          borderRadius: '6px',
+                          padding: '12px 15px',
+                          boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                          borderLeft: '4px solid #3498db'
+                        }}>
+                          <div style={{ 
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center'
+                          }}>
+                            <span style={{ 
+                              fontWeight: '600', 
+                              color: '#2c3e50',
+                              fontSize: '15px'
+                            }}>
+                              {specialty.name}
+                            </span>
+                            <span style={{
+                              backgroundColor: '#ffebee',
+                              color: '#e74c3c',
+                              padding: '3px 8px',
+                              borderRadius: '10px',
+                              fontSize: '12px',
+                              fontWeight: '600'
+                            }}>
+                              {specialty.doctorsNeeded} {specialty.doctorsNeeded === 1 ? 'médico faltante' : 'médicos faltantes'}
+                            </span>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div style={{
+                textAlign: 'center',
+                padding: '40px 20px',
+                color: '#7f8c8d'
+              }}>
+                <div style={{ 
+                  fontSize: '60px', 
+                  marginBottom: '20px',
+                  opacity: 0.7
+                }}>🏥</div>
+                <h3 style={{ 
+                  color: '#95a5a6',
+                  marginBottom: '15px'
+                }}>
+                  Información de Hospitales
+                </h3>
+                <p style={{ 
+                  lineHeight: '1.6',
+                  marginBottom: '25px'
+                }}>
+                  Seleccione un hospital en el mapa o realice una búsqueda para ver información detallada sobre especialidades disponibles y necesidades de personal médico.
+                </p>
+                <div style={{
                   backgroundColor: '#f8f9fa',
                   padding: '15px',
-                  borderRadius: '5px',
-                  marginTop: '10px'
+                  borderRadius: '8px',
+                  textAlign: 'left'
                 }}>
-                  <h4 style={{ marginTop: '0', color: '#2c3e50' }}>Especialidades:</h4>
-                  <ul style={{ listStyle: 'none', padding: 0 }}>
-                    {selectedHospital.specialties.map((specialty, index) => (
-                      <li key={index} style={{ 
-                        padding: '10px',
-                        marginBottom: '8px',
-                        backgroundColor: 'white',
-                        borderRadius: '4px',
-                        boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
-                      }}>
-                        <div style={{ fontWeight: 'bold', color: '#3498db' }}>{specialty.name}</div>
-                        <div style={{ color: '#e74c3c', marginTop: '5px' }}>
-                          Doctores faltantes: {specialty.doctorsNeeded}
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
+                  <p style={{ 
+                    fontWeight: '500',
+                    color: '#2c3e50',
+                    marginBottom: '10px'
+                  }}>
+                    Consejo útil:
+                  </p>
+                  <p style={{ margin: 0 }}>
+                    Puede buscar hospitales por nombre, distrito o especialidad médica. Presione Enter para realizar la búsqueda.
+                  </p>
                 </div>
-              )}
-            </div>
-          ) : (
-            <p style={{ color: '#7f8c8d', fontStyle: 'italic' }}>
-              Seleccione un hospital en el mapa o búsquelo arriba
-            </p>
-          )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
