@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #5883da;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.map-container {
+  display: flex;
+  flex: 1;
+}
+
+.map {
+  flex: 2;
+  height: 100%;
+}
+
+.info-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ccc;
+}
+
+.health-center-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.specialties {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+}

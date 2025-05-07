@@ -1,0 +1,2219 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-05T16:14:35Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198652110",
+        "addr:city": "Arequipa",
+        "addr:housenumber": "505",
+        "addr:street": "Avenida Alcides Carrión",
+        "alt_name": "Hospital Regional de Arequipa",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Regional Honorio Delgado Espinoza",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 231818;+51 54 233812",
+        "ref:category": "III-1",
+        "ref:microred": "0",
+        "ref:red": "0",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5315582,
+          -16.4149129
+        ]
+      },
+      "id": "way/198652110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/328480427",
+        "addr:city": "Arequipa",
+        "addr:street": "Paucarpata",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Hospital Goyeneche",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 231313",
+        "ref:category": "III-1",
+        "website": "https://www.hospitalgoyeneche.gob.pe/",
+        "wikidata": "Q5902686",
+        "wikipedia": "es:Hospital Goyeneche",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5279176,
+          -16.4024925
+        ]
+      },
+      "id": "way/328480427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/371890573",
+        "amenity": "clinic",
+        "barrier": "wall",
+        "emergency:phone": "+51 54 630820",
+        "name": "Puesto de Salud Lomas",
+        "operator": "Gobierno Regional",
+        "phone": "+51 961793836",
+        "ref": "00001376",
+        "ref:category": "I-2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.849416,
+          -15.5670232
+        ]
+      },
+      "id": "way/371890573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420980061",
+        "addr:street": "Avenida Jesus",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de salud de Alto Jesús",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 466651",
+        "ref:category": "I-2",
+        "ref:microred": "19",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4944716,
+          -16.4226098
+        ]
+      },
+      "id": "way/420980061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420998426",
+        "addr:city": "Cotahuasi",
+        "addr:housenumber": "105",
+        "addr:street": "Avenida 21 de Marzo",
+        "amenity": "clinic",
+        "name": "Centro de Salud Cotahuasi",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 581099",
+        "ref": "00001455",
+        "ref:category": "I-4",
+        "ref:microred": "7",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8862177,
+          -15.2132626
+        ]
+      },
+      "id": "way/420998426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435723274",
+        "addr:housenumber": "1216",
+        "addr:street": "Avenida San Martin",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "6",
+        "healthcare": "hospital",
+        "height": "18",
+        "name": "Hospital Miraflores 3",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 214318",
+        "ref:category": "I-3",
+        "ref:microred": "16",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5234949,
+          -16.3952064
+        ]
+      },
+      "id": "way/435723274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443217783",
+        "addr:housenumber": "601",
+        "addr:street": "Avenida Francisco Mostajo",
+        "amenity": "clinic",
+        "name": "Centro de Salud Independencia",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 202734",
+        "ref:category": "I-3",
+        "ref:microred": "13",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.524851,
+          -16.3668113
+        ]
+      },
+      "id": "way/443217783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/474090125",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Víctor Raúl Hinojosa",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1257",
+        "phone": "+51 54 423093",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5155045,
+          -16.4448327
+        ]
+      },
+      "id": "way/474090125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488349698",
+        "addr:street": "Ciudad Municipal Zona \"1\", \"Lt. 03\"",
+        "amenity": "hospital",
+        "name": "Puesto de Salud \"Ciudad Municipal\"",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 415181",
+        "ref:category": "I-2",
+        "ref:microred": "9",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5941442,
+          -16.3254851
+        ]
+      },
+      "id": "way/488349698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511592121",
+        "addr:housenumber": "125",
+        "addr:street": "Cordova",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Javier Llosa García - Hunter",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-4",
+        "pe:minsa:codigo": "1259",
+        "phone": "+51 54 442495",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.554917,
+          -16.4454009
+        ]
+      },
+      "id": "way/511592121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511604316",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Las Esmeraldas",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1264",
+        "phone": "+51 54 422809",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5125768,
+          -16.4500244
+        ]
+      },
+      "id": "way/511604316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/552243378",
+        "addr:street": "Avenida los Angeles",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto de Salud Israel",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 466553",
+        "ref:category": "I-2",
+        "ref:microred": "19",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4847693,
+          -16.4188883
+        ]
+      },
+      "id": "way/552243378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/553096304",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Acarí",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1352",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6231348,
+          -15.4531718
+        ]
+      },
+      "id": "way/553096304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/553646473",
+        "addr:housenumber": "104",
+        "addr:street": "Bolívar",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Chala",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1350",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2466736,
+          -15.8608285
+        ]
+      },
+      "id": "way/553646473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/553868921",
+        "addr:street": "Calle Juan B. Arenas",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hosítal II Manuel de Torres Nuñez Mollendo",
+        "operator": "EsSalud",
+        "phone": "+51 54 532081",
+        "ref:category": "II-1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0150685,
+          -17.0199671
+        ]
+      },
+      "id": "way/553868921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556390346",
+        "addr:street": "Calle San Isidro",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud La Punta",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1446",
+        "phone": "+51 054 553062",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7942455,
+          -17.1718824
+        ]
+      },
+      "id": "way/556390346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556391812",
+        "addr:street": "Avenida Dean Valdivia",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud La Curva",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1449",
+        "phone": "+51 54 554054",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8245477,
+          -17.1460279
+        ]
+      },
+      "id": "way/556391812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556394277",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Cocachacra",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1445",
+        "phone": "+51 54 552059",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7609832,
+          -17.0900418
+        ]
+      },
+      "id": "way/556394277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556402664",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Matarani",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1443",
+        "phone": "+51 54 557004",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.097957,
+          -16.9997481
+        ]
+      },
+      "id": "way/556402664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556403486",
+        "addr:street": "Avenida Puente Grau",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud San José",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1345",
+        "phone": "+51 54 572447",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7350549,
+          -16.6193285
+        ]
+      },
+      "id": "way/556403486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556404258",
+        "addr:housenumber": "201",
+        "addr:street": "Avenida 3 de Noviembre",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud La Pampa",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1346",
+        "phone": "+51 54 572442",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6997539,
+          -16.6137891
+        ]
+      },
+      "id": "way/556404258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556404530",
+        "addr:housenumber": "302",
+        "addr:street": "Mariano Melgar",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud San Gregorio",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1347",
+        "phone": "+51 54 572441",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7148745,
+          -16.5725577
+        ]
+      },
+      "id": "way/556404530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556405533",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Ocoña",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1348",
+        "phone": "+51 54 587019",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1054356,
+          -16.4344959
+        ]
+      },
+      "id": "way/556405533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556405867",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Atico",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1349",
+        "phone": "+51 54 512030",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.606685,
+          -16.2291593
+        ]
+      },
+      "id": "way/556405867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556409626",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud San Isidro",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1323",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9283452,
+          -16.5858993
+        ]
+      },
+      "id": "way/556409626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556410154",
+        "addr:full": "El Triunfo Zona C",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud El Cruce",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1330",
+        "phone": "+51 54 491055",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8388238,
+          -16.4958351
+        ]
+      },
+      "id": "way/556410154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556410535",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Vitor",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1324",
+        "phone": "+51 54 789814",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9365923,
+          -16.4665063
+        ]
+      },
+      "id": "way/556410535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556413307",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Chiguata",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1299",
+        "phone": "+51 54 782666",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3924137,
+          -16.4026929
+        ]
+      },
+      "id": "way/556413307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556417179",
+        "amenity": "clinic",
+        "name": "Centro de Salud Ciudad de Dios",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1253",
+        "phone": "+51 54 781140",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6197758,
+          -16.3055648
+        ]
+      },
+      "id": "way/556417179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556533592",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Congata",
+        "operator": "Gobierno Regional de Arequipa",
+        "operator:type": "public",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1281",
+        "phone": "+51 54 341654",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6196684,
+          -16.4448879
+        ]
+      },
+      "id": "way/556533592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556535482",
+        "addr:street": "Calle Condoroma",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Cerro Verde",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1280",
+        "phone": "+51 54 439402",
+        "ref:category": "I-3",
+        "ref:microred": "24",
+        "ref:red": "3",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6146502,
+          -16.4509889
+        ]
+      },
+      "id": "way/556535482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556547651",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Tiabaya",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1260",
+        "phone": "+51 54 439402",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5900492,
+          -16.4505575
+        ]
+      },
+      "id": "way/556547651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556562853",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Characato",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1261",
+        "phone": "+51 54 448608",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4854723,
+          -16.4681251
+        ]
+      },
+      "id": "way/556562853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556571955",
+        "addr:street": "Calle Ricardo Palma",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud 4 de Octubre",
+        "operator": "MINSA",
+        "phone": "+51 54 435902",
+        "ref": "00001268",
+        "ref:category": "I-3",
+        "ref:microred": "25",
+        "ref:red": "3",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.527331,
+          -16.4475319
+        ]
+      },
+      "id": "way/556571955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556593287",
+        "addr:housenumber": "300",
+        "addr:street": "Avenida Socabaya",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud San Martín de Socabaya",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "1258",
+        "phone": "+51 54 438638",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5303757,
+          -16.4390533
+        ]
+      },
+      "id": "way/556593287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556596057",
+        "addr:housenumber": "300",
+        "addr:street": "Socabaya",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "CAP III Melitón Salas Tejada",
+        "operator": "EsSalud",
+        "pe:minsa:categoria": "I-3",
+        "pe:minsa:codigo": "13298",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5304271,
+          -16.4387179
+        ]
+      },
+      "id": "way/556596057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/558928766",
+        "addr:full": "Anexo Machahuaya Mz. A Lte. 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics;general",
+        "name": "Posta de Salud Machaguaya",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 797620",
+        "ref:category": "I-2",
+        "ref:microred": "21",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4997558,
+          -16.4965113
+        ]
+      },
+      "id": "way/558928766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/558940699",
+        "addr:full": "Sector D Zona X Número 0 Manzana 17 Lote 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto de Salud Horacio Zeballos Gámez",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 669911",
+        "ref": "00023338",
+        "ref:category": "I-2",
+        "ref:microred": "25",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4992701,
+          -16.4784244
+        ]
+      },
+      "id": "way/558940699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560851201",
+        "amenity": "clinic",
+        "name": "Sandrita Perez",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 586671",
+        "ref:category": "I-4",
+        "ref:microred": "12",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.190283,
+          -16.361987
+        ]
+      },
+      "id": "way/560851201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570342547",
+        "addr:full": "Asentamiento B-1 Lote 1 Irrigacion Majes",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Central de Majes- Angel Gabriel Chura Gallegos",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 202279",
+        "ref:category": "II-1",
+        "ref:microred": "0",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2226523,
+          -16.3211019
+        ]
+      },
+      "id": "way/570342547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570382112",
+        "addr:full": "Centro Poblado Asentamiento B-1",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Posta de la B 1",
+        "operator": "Gobierno Regional",
+        "phone": "+51 959539399",
+        "ref:category": "I-2",
+        "ref:microred": "12",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2381762,
+          -16.321244
+        ]
+      },
+      "id": "way/570382112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/676029472",
+        "addr:full": "Calle Misti B-1 P.J. Jerusalen",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Posta de Jerusalen",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 450316",
+        "ref:category": "I-2",
+        "ref:microred": "15",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4888403,
+          -16.4013476
+        ]
+      },
+      "id": "way/676029472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696840291",
+        "addr:street": "Calle Progreso",
+        "amenity": "clinic",
+        "name": "Puesto de Salud Cerrito Buena Vista",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-1",
+        "ref:microred": "26",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8312445,
+          -16.4453946
+        ]
+      },
+      "id": "way/696840291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/728234549",
+        "addr:full": "Asentamiento Humano Nueva Alborada",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Nueva Alborada",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 467646",
+        "ref:category": "I-3",
+        "ref:microred": "18",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4912414,
+          -16.4340396
+        ]
+      },
+      "id": "way/728234549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817944624",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de salud Maritza Campos Díaz Zamácola",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 443087",
+        "ref:category": "I-4",
+        "ref:microred": "9",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5624685,
+          -16.3513039
+        ]
+      },
+      "id": "way/817944624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839993797",
+        "addr:street": "Avenida Mar de Plata",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto de Salud Luis F. Cortegana-Huacapuy",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 796347",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7499809,
+          -16.6017392
+        ]
+      },
+      "id": "way/839993797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894434661",
+        "amenity": "clinic",
+        "name": "Centro de Salud Corire",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 472042",
+        "ref": "00001383",
+        "ref:category": "I-4",
+        "ref:microred": "5",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4710428,
+          -16.2266677
+        ]
+      },
+      "id": "way/894434661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894437711",
+        "amenity": "clinic",
+        "name": "Centro de Salud La Real",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 767944",
+        "ref": "00001395",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4938829,
+          -16.1249245
+        ]
+      },
+      "id": "way/894437711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894696575",
+        "addr:full": "Calle Juan Pablo Vizcardo y Guzman",
+        "amenity": "clinic",
+        "name": "Centro de Salud Huancarqui",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 483226",
+        "ref": "00001384",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4716772,
+          -16.0926141
+        ]
+      },
+      "id": "way/894696575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894725985",
+        "amenity": "clinic",
+        "name": "Centro de Salud Pampacolca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 475031",
+        "ref": "00001385",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5771897,
+          -15.7153947
+        ]
+      },
+      "id": "way/894725985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894730619",
+        "addr:housenumber": "603",
+        "addr:street": "Calle Siglo XX",
+        "amenity": "clinic",
+        "name": "Centro de Salud Viraco",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 476005",
+        "ref": "00001386",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5273529,
+          -15.6567087
+        ]
+      },
+      "id": "way/894730619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1021854173",
+        "addr:city": "Paucarpata",
+        "addr:full": "Calle Ica 303 - Urb. San Lorenzo",
+        "amenity": "hospital",
+        "name": "Hospital Militar",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 453795",
+        "ref:category": "I-4",
+        "ref:microred": "14",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5115258,
+          -16.4019591
+        ]
+      },
+      "id": "way/1021854173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1022172331",
+        "addr:city": "Paucarpata",
+        "addr:housenumber": "2101",
+        "addr:street": "Víctor Andres Belaunde",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Amp. Paucarpata",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 466994",
+        "ref:category": "I-4",
+        "ref:microred": "18",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5031613,
+          -16.4270604
+        ]
+      },
+      "id": "way/1022172331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1031593470",
+        "addr:city": "José Luis Bustamante y Rivero",
+        "addr:street": "Las Peñas",
+        "amenity": "hospital",
+        "name": "Puesto de Salud Salaverry",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 424411",
+        "ref:category": "I-2",
+        "ref:microred": "25",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5363675,
+          -16.4349477
+        ]
+      },
+      "id": "way/1031593470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1184120446",
+        "addr:full": "Asentamiento humano Villa Jesus Mz F Lote 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto de Salud Villa Jesús",
+        "operator": "Gobierno Regional de Arequipa",
+        "phone": "+51 54 466873",
+        "ref:category": "I-2",
+        "ref:microred": "19",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4739457,
+          -16.418255
+        ]
+      },
+      "id": "way/1184120446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222400954",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Maritza Campos Díaz",
+        "operator": "Gobierno Regional de Arequipa",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5601525,
+          -16.3265541
+        ]
+      },
+      "id": "way/1222400954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2081650766",
+        "addr:full": "Calle Bolognesi - Localidad Pinchollo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto de Salud Pinchollo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 280348",
+        "ref:category": "I-1",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8384632,
+          -15.6139234
+        ]
+      },
+      "id": "node/2081650766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3946836798",
+        "addr:city": "Sachaca",
+        "addr:street": "Avenida Fernandini",
+        "amenity": "clinic",
+        "name": "Puesto de salud de Sachaca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 773244",
+        "ref:category": "I-2",
+        "ref:microred": "10",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5663789,
+          -16.4251875
+        ]
+      },
+      "id": "node/3946836798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4279262873",
+        "addr:housenumber": "107",
+        "addr:neighbourhood": "Urbanización 13 de Enero",
+        "addr:street": "Calle Mariscal Castilla",
+        "amenity": "clinic",
+        "name": "13 de Enero",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 422190",
+        "ref:category": "I-2",
+        "ref:microred": "23",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5305606,
+          -16.4327892
+        ]
+      },
+      "id": "node/4279262873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879333622",
+        "addr:street": "Calle San Martin",
+        "amenity": "clinic",
+        "name": "Puesto de Salud Santa Rosa",
+        "name:es": "Puesto de Salud Santa Rosa",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 774560",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4582419,
+          -15.487873
+        ]
+      },
+      "id": "node/4879333622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4881500621",
+        "addr:street": "Calle Amazonas",
+        "amenity": "clinic",
+        "name": "Puesto de Salud Lari",
+        "name:es": "Puesto de Salud Lari",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 694673",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7675113,
+          -15.6234897
+        ]
+      },
+      "id": "node/4881500621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4881500824",
+        "addr:street": "Calle Ramon Castilla",
+        "amenity": "clinic",
+        "name": "Puesto de Salud de Madrigal",
+        "name:es": "Puesto de Salud de Madrigal",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 692100",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8067025,
+          -15.6076139
+        ]
+      },
+      "id": "node/4881500824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319948897",
+        "addr:full": "Avenida Republica del Peru, Zona C, Mz 12, Lt 03",
+        "amenity": "clinic",
+        "name": "Centro de Salud Semi Rural Pachacutec",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 447035",
+        "ref:category": "I-3",
+        "ref:microred": "8",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5730624,
+          -16.3940883
+        ]
+      },
+      "id": "node/5319948897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6117234054",
+        "amenity": "clinic",
+        "name": "Centro de Salud Pucchún",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 790254",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7710852,
+          -16.602515
+        ]
+      },
+      "id": "node/6117234054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6848123476",
+        "addr:full": "Plaza de Armas 201",
+        "amenity": "clinic",
+        "name": "Centro de Salud Alca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 471137",
+        "ref:category": "I-3",
+        "ref:microred": "8",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7654735,
+          -15.1340001
+        ]
+      },
+      "id": "node/6848123476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6848478163",
+        "addr:street": "Calle Huaraz",
+        "amenity": "clinic",
+        "name": "Centro de Salud Apurimac",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 263325",
+        "ref:category": "I-3",
+        "ref:microred": "13",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5096295,
+          -16.3722467
+        ]
+      },
+      "id": "node/6848478163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6848663636",
+        "addr:street": "Avenida Pampaquila",
+        "amenity": "clinic",
+        "name": "Centro de Salud Andagua",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 662366",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3598478,
+          -15.4979262
+        ]
+      },
+      "id": "node/6848663636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852825200",
+        "addr:full": "Calle Arequipa - Localidad Cabanaconde",
+        "amenity": "clinic",
+        "name": "Centro de Salud Cabanaconde",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 631413",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9757419,
+          -15.6196281
+        ]
+      },
+      "id": "node/6852825200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858301093",
+        "addr:street": "Calle Poquechata",
+        "amenity": "clinic",
+        "name": "Centro de Salud Callalli",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 774560",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4422674,
+          -15.5055231
+        ]
+      },
+      "id": "node/6858301093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858792890",
+        "addr:street": "Jirón Dos de Mayo",
+        "amenity": "clinic",
+        "name": "Centro de Salud Caraveli",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 511089",
+        "ref:category": "I-3",
+        "ref:microred": "6",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3684969,
+          -15.7748716
+        ]
+      },
+      "id": "node/6858792890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858993873",
+        "addr:housenumber": "403",
+        "addr:street": "Avenida Jose Carlos Mariategui",
+        "amenity": "clinic",
+        "name": "Centro de Salud Buenos Aires de Cayma",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 443504",
+        "ref:category": "I-3",
+        "ref:microred": "6",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5493927,
+          -16.351506
+        ]
+      },
+      "id": "node/6858993873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858993875",
+        "addr:full": "Calle 20 de Abril 204 P.J. Fco. Bolognesi",
+        "amenity": "clinic",
+        "name": "Centro de Salud Francisco Bolognesi",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 459180",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5422271,
+          -16.3549144
+        ]
+      },
+      "id": "node/6858993875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858995363",
+        "addr:full": "Sector Tupac Amaru",
+        "amenity": "clinic",
+        "name": "Centro de Salud Caylloma",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 631222",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7704116,
+          -15.1861279
+        ]
+      },
+      "id": "node/6858995363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859018706",
+        "addr:full": "Avenida Villa Hermosa 320 Urbanizacion la Libertad",
+        "amenity": "clinic",
+        "name": "Centro de Salud Cerro Colorado",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 257514",
+        "ref:category": "I-3",
+        "ref:microred": "7",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5581999,
+          -16.3772567
+        ]
+      },
+      "id": "node/6859018706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859058654",
+        "addr:full": "Jirón Miguel Grau Arequipa, Zona \"A\" Comite \"Z\" Pueblo Joven Alto Libertad",
+        "amenity": "clinic",
+        "name": "Centro de Salud Alto Libertad",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 445170",
+        "ref:category": "I-3",
+        "ref:microred": "7",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5711396,
+          -16.3841964
+        ]
+      },
+      "id": "node/6859058654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859058655",
+        "addr:full": "Avenida Garcilazo de la Vega 719-Urb. Mariscal Castilla",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mariscal Castilla",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 445352",
+        "ref:category": "I-3",
+        "ref:microred": "8",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.569106,
+          -16.3892234
+        ]
+      },
+      "id": "node/6859058655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7044495050",
+        "addr:housenumber": "301",
+        "addr:street": "Avenida Paz Soldan",
+        "amenity": "clinic",
+        "name": "Centro de Salud la Joya",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 492031",
+        "ref:category": "I-3",
+        "ref:microred": "26",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8164231,
+          -16.4225469
+        ]
+      },
+      "id": "node/7044495050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050362700",
+        "amenity": "clinic",
+        "name": "Centro de Salud la Colina",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 586671",
+        "ref:category": "I-3",
+        "ref:microred": "12",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1743538,
+          -16.3417322
+        ]
+      },
+      "id": "node/7050362700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050443259",
+        "addr:housenumber": "1207",
+        "addr:street": "Avenida Argentina",
+        "amenity": "clinic",
+        "name": "Centro de Salud Generalisimo San Martin",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 453795",
+        "ref:category": "I-3",
+        "ref:microred": "15",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4974519,
+          -16.4045891
+        ]
+      },
+      "id": "node/7050443259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052413194",
+        "addr:housenumber": "307-309",
+        "addr:street": "Calle Ricardo Palma",
+        "amenity": "clinic",
+        "name": "Centro de Salud Edificadores Misti",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 266729",
+        "ref:category": "I-4",
+        "ref:microred": "16",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.511274,
+          -16.383061
+        ]
+      },
+      "id": "node/7052413194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052413195",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "200",
+        "addr:neighbourhood": "Porvenir Miraflores",
+        "addr:street": "Calle Piura",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/p/Centro-de-Salud-Porvenir-Miraflores-100091893456147/",
+        "healthcare:speciality": "general;paediatrics;adulto_mayor;dentist;humanistic",
+        "name": "Centro de Salud Porvenir Miraflores",
+        "opening_hours": "7:30 - 19:30",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "phone": "054-336722",
+        "ref:category": "I-3",
+        "ref:microred": "16",
+        "ref:red": "3",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5085175,
+          -16.3766037
+        ]
+      },
+      "id": "node/7052413195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052416710",
+        "addr:city": "Miraflores",
+        "addr:full": "Upis Mateo Pumacahua E - 39",
+        "addr:postcode": "04001",
+        "addr:state": "Arequipa",
+        "addr:street": "Avenida Unión",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Mateo Pumacahua",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 608597",
+        "ref:category": "I-3",
+        "ref:microred": "16",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5213106,
+          -16.3951191
+        ]
+      },
+      "id": "node/7052416710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061574168",
+        "addr:street": "Avenida Buenaventura",
+        "amenity": "clinic",
+        "name": "Centro de Salud Orcopampa",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 582339",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3437314,
+          -15.2680523
+        ]
+      },
+      "id": "node/7061574168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064000030",
+        "addr:housenumber": "1221",
+        "addr:street": "Avenida Revolucion",
+        "amenity": "clinic",
+        "name": "Centro de Salud Ciudad Blanca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 466118",
+        "ref:category": "I-3",
+        "ref:microred": "19",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4912354,
+          -16.4175735
+        ]
+      },
+      "id": "node/7064000030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064000031",
+        "addr:street": "Prolongacion Avenida los Incas",
+        "amenity": "clinic",
+        "name": "Centro de Salud San Juan de Ciudad Blanca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 466730",
+        "ref:category": "I-3",
+        "ref:microred": "19",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4821706,
+          -16.4144264
+        ]
+      },
+      "id": "node/7064000031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064013326",
+        "addr:housenumber": "2101",
+        "addr:street": "Avenida Kennedy",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Campo Marte",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 466994",
+        "ref:category": "I-3",
+        "ref:microred": "18",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4968122,
+          -16.4273778
+        ]
+      },
+      "id": "node/7064013326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064013328",
+        "addr:full": "Calle Arequipa 202 - Urbanización Manuel Prado",
+        "amenity": "clinic",
+        "name": "Centro de Salud Manuel Prado",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 461006",
+        "ref:category": "I-3",
+        "ref:microred": "18",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5126415,
+          -16.4156378
+        ]
+      },
+      "id": "node/7064013328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064013329",
+        "addr:housenumber": "703",
+        "addr:street": "Avenida Salaverry",
+        "amenity": "clinic",
+        "name": "Centro de Salud 15 de Agosto",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 461824",
+        "ref:category": "I-3",
+        "ref:microred": "17",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5001624,
+          -16.4129664
+        ]
+      },
+      "id": "node/7064013329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070194916",
+        "addr:street": "Pasaje Virgen de Chapi",
+        "amenity": "clinic",
+        "name": "Centro de Salud Iquipi",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 812108",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1310219,
+          -15.9398347
+        ]
+      },
+      "id": "node/7070194916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082389683",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puesto de Salud San Fernando",
+        "operator": "Gobierno Regional",
+        "operator:type": "government",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 54 437325",
+        "ref:category": "I-2",
+        "ref:microred": "25",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5281545,
+          -16.4729859
+        ]
+      },
+      "id": "node/7082389683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294941903",
+        "addr:housenumber": "807",
+        "addr:street": "Avenida Caracas",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mental Comunitario Simón Bolívar",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 422657",
+        "ref": "00023488",
+        "ref:category": "I-3",
+        "ref:microred": "23",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5158871,
+          -16.4436479
+        ]
+      },
+      "id": "node/8294941903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294982304",
+        "addr:full": "Manzana J Lote 9",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mental Comunitario Majes",
+        "operator": "Gobierno Regional",
+        "phone": "+51 959696864",
+        "ref": "00023969",
+        "ref:category": "I-3",
+        "ref:microred": "12",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1737352,
+          -16.3386303
+        ]
+      },
+      "id": "node/8294982304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8317047470",
+        "amenity": "clinic",
+        "name": "Centro de Salud Yanaquihua",
+        "operator": "Gobierno Regional",
+        "phone": "+51 54 720350",
+        "ref": "00001389",
+        "ref:category": "I-3",
+        "ref:microred": "6",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8769208,
+          -15.7752832
+        ]
+      },
+      "id": "node/8317047470"
+    }
+  ]
+}

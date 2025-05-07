@@ -1,0 +1,4262 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-05T16:12:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9721207",
+        "addr:city": "Carabayllo",
+        "addr:full": "Av. San Martín Cdra. 2 S/N Urb. Santa Isabel",
+        "addr:street": "Avenida San Martin",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Carabayllo",
+        "old_name": "Hospital de la Solidaridad Carabayllo",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 543 3444",
+        "type": "multipolygon",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0343618,
+          -11.9012181
+        ]
+      },
+      "id": "relation/9721207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9724165",
+        "addr:city": "Comas",
+        "addr:full": "Av. Túpac Amaru Km. 7.5, Parque La Merced",
+        "addr:street": "Avenida Túpac Amaru",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "layer": "1",
+        "name": "SISOL Salud Comas",
+        "old_name": "Hospital de la Solidaridad Comas",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 525 5462",
+        "type": "multipolygon",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0572059,
+          -11.9706344
+        ]
+      },
+      "id": "relation/9724165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9724186",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Av. Pastor Sevilla Con Óvalo Pumacahua",
+        "addr:street": "Avenida Mariano Pastor Sevilla",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Villa El Salvador",
+        "old_name": "Hospital de la Solidaridad Villa El Salvador",
+        "opening_hours": "Mo-Sa 08:00-17:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 292 3504",
+        "type": "multipolygon",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9596516,
+          -12.1948365
+        ]
+      },
+      "id": "relation/9724186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39413837",
+        "addr:city": "Jesús María",
+        "addr:housenumber": "490",
+        "addr:postcode": "15072",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Edgardo Rebagliati",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Nacional Edgardo Rebagliati Martins",
+        "name:etymology:wikidata": "Q22986646",
+        "old_name": "Hospital del Empleado",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+511 2651526",
+        "short_name": "Hospital Rebagliati",
+        "url": "http://cuerpomedicorebagliati.org/",
+        "website": "https://www.gob.pe/hospital-nacional-edgardo-rebagliati-martins",
+        "wikidata": "Q21849799",
+        "wikimedia_commons": "Category:Hospital Edgardo Rebagliati Martins",
+        "wikipedia": "es:Hospital Edgardo Rebagliati Martins",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0399044,
+          -12.078364
+        ]
+      },
+      "id": "way/39413837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67624614",
+        "addr:neighbourhood": "Urbanización Ganímedes",
+        "addr:street": "Avenida El Sol",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "vaccination",
+        "name": "Centro de Salud Ganimedes",
+        "operator": "MINSA",
+        "phone": "+51 1 3872790",
+        "ref": "00005618",
+        "ref:category": "I-3",
+        "source": "Reconocimiento cartográfico por KG 2016.",
+        "start_date": "1985-02-10",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0114176,
+          -11.9833939
+        ]
+      },
+      "id": "way/67624614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111800007",
+        "addr:city": "Comas",
+        "addr:housenumber": "541",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Guillermo de la Fuente",
+        "alt_name": "Mariano Molina",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Marino Molina Scippa",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+51 1 5374552",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0572333,
+          -11.9431649
+        ]
+      },
+      "id": "way/111800007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117005900",
+        "addr:city": "La Molina",
+        "addr:housenumber": "1201",
+        "addr:neighbourhood": "Urbanización Covima",
+        "addr:postcode": "15012",
+        "addr:state": "Lima",
+        "addr:street": "Avenida de los Constructores",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;surgery;emergency;gynaecology;radiology;cardiology;maternity;physiatry",
+        "name": "Hospital Carlos Alcántara Butterfield",
+        "operator": "EsSalud",
+        "operator:official_name": "Seguridad Social del Perú",
+        "operator:type": "private",
+        "phone": "+51 1 3492288",
+        "ref:category": "II-1",
+        "ref:microred": "0",
+        "ref:red": "0",
+        "website": "http://www.essalud.gob.pe/nuestras-redes-asistenciales/la-molina/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9455002,
+          -12.0618216
+        ]
+      },
+      "id": "way/117005900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/119442072",
+        "addr:full": "Jirón Cocharcas Mz. A Lt. 1 - Anexo Mz. K-15, Lote 46 - Asentamiento humano Jaime Zubieta",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Jaime Zubieta",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5624",
+        "phone": "+51 1 3877589",
+        "start_date": "1988-10-30",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9888048,
+          -11.9632509
+        ]
+      },
+      "id": "way/119442072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126861263",
+        "addr:city": "Villa El Salvador",
+        "addr:full": "Avenida César Vallejo / Avenida Separadora Industrial",
+        "addr:postcode": "15834",
+        "addr:state": "Lima",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "hospital",
+        "contact:phone": "+511 287 5266;+511 287 5670",
+        "contact:website": "http://www.essalud.gob.pe",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "internal",
+        "name": "Hospital Uldarico Roca Fernández",
+        "name:en": "Uldarico Roca Fernández Hospital",
+        "name:fr": "Hôpital Uldarico Roca Fernández",
+        "name:it": "Ospedale Uldarico Roca Fernández",
+        "name:pt": "Hospital Uldarico Roca Fernández",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9318382,
+          -12.2115835
+        ]
+      },
+      "id": "way/126861263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160691934",
+        "addr:city": "San Juan de Miraflores",
+        "addr:housenumber": "968",
+        "addr:street": "Avenida Miguel Iglesias",
+        "amenity": "hospital",
+        "email": "hma@hma.gob.pe",
+        "emergency": "yes",
+        "healthcare:speciality": "general",
+        "name": "Hospital María Auxiliadora",
+        "operator": "MINSA",
+        "phone": "+51 012171818",
+        "website": "http://www.hma.gob.pe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9582593,
+          -12.1610982
+        ]
+      },
+      "id": "way/160691934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169309866",
+        "addr:city": "San Juan de Lurigancho",
+        "addr:full": "Av. Próceres de la IndependenciaCdra. 16",
+        "addr:postcode": "15431",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Próceres de la Independencia",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud San Juan de Lurigancho",
+        "old_name": "Hospital de la Solidaridad San Juan de Lurigancho",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:wikidata": "Q12184118",
+        "phone": "+51 1 2531186",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0036434,
+          -12.0084055
+        ]
+      },
+      "id": "way/169309866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183453703",
+        "addr:full": "Avenida El Santuario - Urb. Mangomarca",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mangomarca",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5847",
+        "phone": "+51 1 3790380",
+        "start_date": "1983-12-31",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9796047,
+          -12.0107658
+        ]
+      },
+      "id": "way/183453703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/187076624",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital de San Juan de Lurigancho",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "II-2",
+        "pe:renaes:codigo": "5617",
+        "phone": "+51 1 3872300",
+        "source": "Reconocimiento cartográfico por KG 2016.",
+        "start_date": "1976-02-20",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.003619,
+          -11.9662322
+        ]
+      },
+      "id": "way/187076624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223370761",
+        "addr:housenumber": "221-251-271",
+        "addr:street": "Avenida Jose Arambulo la Rosa",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Hospital General de Huacho",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2322351, +511 2395142",
+        "ref:category": "II-2",
+        "ref:microred": "0",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6071418,
+          -11.1149335
+        ]
+      },
+      "id": "way/223370761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233699482",
+        "addr:housenumber": "210; 224",
+        "addr:street": "Avenida Nicolas de Pierola",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "fax": "+51 1 2352156",
+        "name": "Hospital de Barranca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2352156",
+        "ref:category": "II-2",
+        "ref:microred": "10",
+        "ref:red": "1",
+        "source": "www.minsa.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7639146,
+          -10.7539449
+        ]
+      },
+      "id": "way/233699482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/291986361",
+        "addr:city": "Lima",
+        "addr:housenumber": "390",
+        "addr:street": "Avenida Guillermo Dansey",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Policlínico Ramón Castilla",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+51 1 3308439;+51 1 3308446",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0440449,
+          -12.0444486
+        ]
+      },
+      "id": "way/291986361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316240452",
+        "addr:city": "Santiago de Surco",
+        "addr:street": "Alameda Pérez de Tudela",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Policlínico Los Próceres",
+        "operator": "EsSalud",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9854415,
+          -12.150653
+        ]
+      },
+      "id": "way/316240452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320780233",
+        "addr:housenumber": "617",
+        "addr:street": "Calle Ferrocarril",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Puesto de Salud Chaquila",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2352075",
+        "ref": "00005688",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.751958,
+          -10.7603683
+        ]
+      },
+      "id": "way/320780233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/366012271",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Proyectos Especiales",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5623",
+        "phone": "+51 1 3875550",
+        "start_date": "1987-02-15",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9924193,
+          -11.9560337
+        ]
+      },
+      "id": "way/366012271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384203094",
+        "addr:city": "Santa Anita",
+        "addr:housenumber": "3900",
+        "addr:postcode": "15012",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Nicolás Ayllón",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Clínica Geriátrica San Isidro Labrador",
+        "operator": "EsSalud",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9479003,
+          -12.0457887
+        ]
+      },
+      "id": "way/384203094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/391908588",
+        "addr:city": "Rímac",
+        "addr:housenumber": "585",
+        "addr:postcode": "15094",
+        "addr:state": "Lima",
+        "addr:street": "Avenida Francisco Pizarro",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Policlínico Francisco Pizarro",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+511 4829995",
+        "start_date": "1984",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0351378,
+          -12.0370087
+        ]
+      },
+      "id": "way/391908588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392494866",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mariscal Castilla",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5643",
+        "phone": "+51 1 3816345",
+        "start_date": "1998-05-05",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0316691,
+          -12.017349
+        ]
+      },
+      "id": "way/392494866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487902",
+        "addr:housenumber": "1051",
+        "addr:street": "Avenida Los Próceres",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Caquetá",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5752",
+        "phone": "+51 1 4812129",
+        "start_date": "1987-12-10",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.043542,
+          -12.031194
+        ]
+      },
+      "id": "way/393487902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487903",
+        "addr:full": "Jirón Jacinto Benavente N° 264 - Asociacion Ciudad Y Campo",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Ciudad y Campo",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5640",
+        "phone": "+51 1 4811272",
+        "start_date": "1949-09-06",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0281362,
+          -12.0240814
+        ]
+      },
+      "id": "way/393487903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487905",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Flor de Amancaes",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5641",
+        "phone": "+51 1 3814399",
+        "start_date": "1984-08-05",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0352782,
+          -12.0080625
+        ]
+      },
+      "id": "way/393487905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487906",
+        "addr:city": "Rímac",
+        "addr:street": "Calle C",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Leoncio Prado",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5638",
+        "phone": "+51 1 4822474",
+        "start_date": "1984-09-07",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0303477,
+          -12.0316079
+        ]
+      },
+      "id": "way/393487906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487907",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud San Juan de Amancaes",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5639",
+        "phone": "+51 1 3819931",
+        "start_date": "1982-06-26",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0268081,
+          -12.0162407
+        ]
+      },
+      "id": "way/393487907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393487908",
+        "addr:housenumber": "209",
+        "addr:street": "Avenida Las Mercedes",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Villa Los Angeles",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5642",
+        "phone": "+51 1 4810310",
+        "start_date": "1987-07-26",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.024316,
+          -12.0234869
+        ]
+      },
+      "id": "way/393487908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393491232",
+        "addr:district": "Rímac",
+        "addr:street": "Avenida Santa Rosa",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Piedra Liza",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-4",
+        "pe:renaes:codigo": "5842",
+        "phone": "+51 1 4819920;+51 1 3820328",
+        "start_date": "1960-03-06",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0170447,
+          -12.0395345
+        ]
+      },
+      "id": "way/393491232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/394469163",
+        "addr:city": "Chorrillos",
+        "addr:housenumber": "990",
+        "addr:street": "Avenida Panamericana Sur",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Chorrillos",
+        "old_name": "Hospital de la Solidaridad Chorrillos",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 467 1684",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0191398,
+          -12.1675144
+        ]
+      },
+      "id": "way/394469163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397376010",
+        "addr:full": "Avenida Principal Mz. G Lte. 2",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Campoy",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5848",
+        "phone": "+51 1 3861645",
+        "start_date": "1977-08-18",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9601129,
+          -12.0215084
+        ]
+      },
+      "id": "way/397376010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397376011",
+        "addr:street": "Jirón Alfonso Ugarte",
+        "amenity": "clinic",
+        "building": "yes",
+        "height": "4.8",
+        "name": "Centro de Salud Daniel Alcides Carrión",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5845",
+        "phone": "+51 1 3861646",
+        "start_date": "1987-10-15",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9770519,
+          -12.0232301
+        ]
+      },
+      "id": "way/397376011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397376012",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Zarate",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5849",
+        "phone": "+51 1 4598400",
+        "start_date": "1995-12-22",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9946922,
+          -12.0231817
+        ]
+      },
+      "id": "way/397376012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404849",
+        "addr:full": "Avenida 15 de Enero Mz. E",
+        "amenity": "clinic",
+        "name": "Centro de Salud 15 de Enero",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5839",
+        "phone": "+51 1 4595839",
+        "start_date": "1985-02-23",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0187464,
+          -12.0111297
+        ]
+      },
+      "id": "way/397404849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404850",
+        "addr:full": "Avenida Lurigancho Cdra.9 Mz.B Lote 49 - Urb.Azcarrunz Alto",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Azcarrunz Alto",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5844",
+        "phone": "+51 1 4596890",
+        "start_date": "1986-09-15",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0010721,
+          -12.0170857
+        ]
+      },
+      "id": "way/397404850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404852",
+        "addr:city": "San Juan de Lurigancho",
+        "addr:housenumber": "155",
+        "addr:street": "Jirón José Antonio Encinas",
+        "amenity": "clinic",
+        "name": "Centro de Salud Chacarilla de Otero",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5841",
+        "phone": "+51 1 4583290;+51 1 4583230",
+        "start_date": "1973-06-17",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0069526,
+          -12.0211325
+        ]
+      },
+      "id": "way/397404852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404853",
+        "addr:housenumber": "1545",
+        "addr:neighbourhood": "Urbanización Inca Manco Cápac",
+        "addr:street": "Jirón Las Margaritas",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud La Libertad",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5834",
+        "phone": "+51 1 4584186",
+        "start_date": "1988-02-12",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9958673,
+          -12.0041877
+        ]
+      },
+      "id": "way/397404853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404854",
+        "addr:housenumber": "1893",
+        "addr:neighbourhood": "Urbanización San Hilarión",
+        "addr:street": "Jirón Las Ortigas",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud San Fernando",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5838",
+        "phone": "+51 1 4584806",
+        "start_date": "1982-12-28",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0106745,
+          -12.002598
+        ]
+      },
+      "id": "way/397404854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404855",
+        "addr:city": "San Juan de Lurigancho",
+        "addr:neighbourhood": "Urbanización San Hilarión",
+        "addr:street": "Jirón Los Silicios",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud San Hilarión",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5837",
+        "phone": "+51 1 3882500",
+        "start_date": "1981-08-14",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0160904,
+          -11.9957535
+        ]
+      },
+      "id": "way/397404855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397404856",
+        "addr:full": "Jirón Cantuta - Aahh. Santa Fe de Totorita",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Santa Fe de Totorita",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5836",
+        "phone": "+51 1 3766489",
+        "start_date": "1987-10-16",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9960186,
+          -11.9970494
+        ]
+      },
+      "id": "way/397404856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397415849",
+        "addr:full": "Grupo II Mz 23 Ltes. 101-107-108 - Asentamiento humano Huascar",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Huascar II",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5621",
+        "phone": "+51 1 3882482",
+        "start_date": "1982-07-06",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0110779,
+          -11.9668086
+        ]
+      },
+      "id": "way/397415849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397415850",
+        "addr:neighbourhood": "Cooperativa La Huayrona",
+        "addr:street": "Calle Las Gemas",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud La Huayrona",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5835",
+        "phone": "+51 1 3877400",
+        "start_date": "1983-10-08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0065896,
+          -11.9939194
+        ]
+      },
+      "id": "way/397415850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397415851",
+        "addr:neighbourhood": "Urbanización San Rafael",
+        "addr:street": "Avenida El Parque",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Medalla Milagrosa",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "5620",
+        "phone": "+51 1 3882503",
+        "start_date": "1990-03-27",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0060804,
+          -11.9771649
+        ]
+      },
+      "id": "way/397415851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397415852",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Sagrada Familia",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "6999",
+        "phone": "+51 1 3886661",
+        "start_date": "2005-11-18",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9887629,
+          -11.9766321
+        ]
+      },
+      "id": "way/397415852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397423267",
+        "addr:full": "Avenida 1ero de Mayo 3ra Etapa - Asentamiento humano Bayovar",
+        "amenity": "clinic",
+        "name": "Centro de Salud Bayovar",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5614",
+        "phone": "+51 1 3922245",
+        "start_date": "1982-07-17",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9916643,
+          -11.9519057
+        ]
+      },
+      "id": "way/397423267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556295",
+        "addr:district": "San Juan de Lurigancho",
+        "addr:full": "Mz. F 5 - Asentamiento humano 10 de Octubre",
+        "addr:neighbourhood": "10 de Octubre",
+        "addr:state": "Lima",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud 10 de Octubre",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "MINSA",
+        "operator:type": "government",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5616",
+        "phone": "+511 3920683",
+        "start_date": "1985-09-17",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9877984,
+          -11.9449764
+        ]
+      },
+      "id": "way/397556295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556296",
+        "addr:full": "Avenida Central - Asentamiento humano Cruz de Motupe (ALT Pdo 8 Av.Wiesse)",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud Cruz de Motupe",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5627",
+        "phone": "+51 1 3920678",
+        "start_date": "1987-07-15",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9746217,
+          -11.9407525
+        ]
+      },
+      "id": "way/397556296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556297",
+        "amenity": "clinic",
+        "name": "Centro de Salud Enrique Montenegro",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5629",
+        "phone": "+51 1 3924729",
+        "start_date": "1989-12-18",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9711489,
+          -11.9373275
+        ]
+      },
+      "id": "way/397556297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556299",
+        "addr:full": "Jirón El Cruce Mz. H - Asentamiento humano Jose Carlos Mariategui",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro de Salud José Carlos Mariátegui",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5628",
+        "phone": "+511 3924900",
+        "start_date": "1984-02-12",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9845382,
+          -11.9451172
+        ]
+      },
+      "id": "way/397556299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556300",
+        "addr:full": "Mz. N8 Lt. 4 Urb. Mariscal Caceres (ALT. Pdo. 5 Avenida El Muro)",
+        "amenity": "clinic",
+        "name": "Centro de Salud Mariscal Caceres",
+        "operator": "MINSA",
+        "pe:minsa:categoria": "I-2",
+        "pe:renaes:codigo": "7357",
+        "phone": "+51 1 3927352",
+        "start_date": "2004-06-26",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9810151,
+          -11.9495186
+        ]
+      },
+      "id": "way/397556300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397556301",
+        "addr:neighbourhood": "Su Santidad Juan Pablo II",
+        "addr:state": "Lima",
+        "addr:street": "Del Paso",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Su Santidad Juan Pablo II",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "MINSA",
+        "operator:type": "government",
+        "pe:minsa:categoria": "I-3",
+        "pe:renaes:codigo": "5615",
+        "phone": "+51 1 3920692",
+        "start_date": "1988-03-27",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9907041,
+          -11.9447507
+        ]
+      },
+      "id": "way/397556301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/398850206",
+        "addr:city": "Cercado de Lima",
+        "addr:full": "Av. Colonial Cdra. 19",
+        "addr:street": "Avenida Óscar Raimundo Benavides",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Mirones",
+        "old_name": "Hospital de la Solidaridad Mirones",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 336 8228",
+        "website": "https://www.sisol.gob.pe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0682362,
+          -12.0492017
+        ]
+      },
+      "id": "way/398850206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/406622143",
+        "addr:city": "El Agustino",
+        "addr:street": "Avenida César Vallejo",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud El Agustino",
+        "old_name": "Hospital de la Solidaridad El Agustino",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 358 0954",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9971154,
+          -12.0394851
+        ]
+      },
+      "id": "way/406622143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/416304605",
+        "addr:street": "Calle Alfa",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Munisalud San Borja",
+        "operator": "Municipalidad de San Borja",
+        "phone": "+51 1 6125555",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9992657,
+          -12.10774
+        ]
+      },
+      "id": "way/416304605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435485146",
+        "addr:city": "La Victoria",
+        "addr:housenumber": "351",
+        "addr:street": "Avenida Almirante Miguel Grau",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "emergency",
+        "name": "Hospital de Emergencias Grau",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+511 4282327",
+        "ref:category": "II-2",
+        "ref:microred": "0",
+        "ref:red": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0310513,
+          -12.0588893
+        ]
+      },
+      "id": "way/435485146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436278843",
+        "addr:city": "Lince",
+        "addr:housenumber": "550",
+        "addr:street": "Avenida General César Canevaro",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Lince",
+        "old_name": "Hospital de la Solidaridad Lince",
+        "opening_hours": "07:00-18:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 472 6755",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0395119,
+          -12.0840314
+        ]
+      },
+      "id": "way/436278843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437382370",
+        "addr:housenumber": "440",
+        "addr:street": "Avenida Los Próceres",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Policlínico Próceres",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+511 2743391;+511 2740455;+511 2743800",
+        "ref:category": "I-3",
+        "ref:microred": "0",
+        "ref:red": "0",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988604,
+          -12.1506561
+        ]
+      },
+      "id": "way/437382370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437496535",
+        "addr:city": "La Victoria",
+        "addr:full": "Calle Manco Cápac 218, La Victoria",
+        "addr:housenumber": "218",
+        "addr:street": "Avenida Manco Cápac",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud La Victoria",
+        "old_name": "Hospital de la Solidaridad La Victoria",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:wikidata": "Q12184118",
+        "phone": "+511 272 9421",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02994,
+          -12.0609181
+        ]
+      },
+      "id": "way/437496535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437683615",
+        "addr:city": "Villa María del Triunfo",
+        "addr:full": "Av. Salvador Allende Cdra. 16",
+        "addr:street": "Avenida Nicolás de Piérola",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Villa María del Triunfo",
+        "old_name": "Hospital de La Solidaridad Villa María del Triunfo",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:type": "public",
+        "phone": "+511 2960128",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9455733,
+          -12.1716877
+        ]
+      },
+      "id": "way/437683615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439241364",
+        "addr:district": "Rímac",
+        "addr:street": "Avenida Túpac Amaru",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Metro UNI",
+        "old_name": "Hospital de la Solidaridad Metro UNI",
+        "opening_hours": "Mo-Sa 07:00-19:30",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:wikidata": "Q12184118",
+        "phone": "+51 1 5348556",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0516846,
+          -12.0131949
+        ]
+      },
+      "id": "way/439241364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/444455958",
+        "addr:city": "Langa",
+        "addr:street": "Jirón Nicanor Mujica",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Langa",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "phone": "+511 3559720",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4197434,
+          -12.1247843
+        ]
+      },
+      "id": "way/444455958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/450034934",
+        "addr:street": "Avenida Nueva",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Base Canta",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 5065978",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "10",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6234035,
+          -11.4698894
+        ]
+      },
+      "id": "way/450034934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/450128393",
+        "addr:city": "Jesús María",
+        "addr:housenumber": "1402",
+        "addr:street": "Avenida Álvarez de Arenales",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Complejo Hospitalario Arenales",
+        "operator": "EsSalud",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0371483,
+          -12.0785806
+        ]
+      },
+      "id": "way/450128393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465561830",
+        "addr:city": "Puente Piedra",
+        "addr:full": "Panamericana Norte Km. 30, Puente Piedra",
+        "addr:street": "Panamericana Norte",
+        "amenity": "hospital",
+        "building": "roof",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Puente Piedra",
+        "old_name": "Hospital de la Solidaridad Puente Piedra",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 548 0573",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0711593,
+          -11.8690825
+        ]
+      },
+      "id": "way/465561830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/506844765",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Puesto de Salud San Juan de Viscas",
+        "operator": "Gobierno Regional",
+        "phone": "+511 5308188",
+        "ref:category": "I-1",
+        "ref:microred": "3",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2786209,
+          -12.327004
+        ]
+      },
+      "id": "way/506844765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/506873122",
+        "addr:city": "Asia",
+        "addr:street": "Avenida Lima",
+        "amenity": "hospital",
+        "name": "Centro de Salud Capilla de Asia",
+        "operator": "Gobierno Regional",
+        "phone": "+51 996504915",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5559765,
+          -12.7807699
+        ]
+      },
+      "id": "way/506873122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507123717",
+        "addr:street": "Avenida 2 de Mayo",
+        "amenity": "hospital",
+        "name": "Puesto de Salud Pueblo Nuevo de Conta",
+        "operator": "Gobierno Regional",
+        "phone": "+51 975495768",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3382151,
+          -13.0163162
+        ]
+      },
+      "id": "way/507123717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507127478",
+        "amenity": "hospital",
+        "name": "Puesto de Salud Carmen Alto",
+        "operator": "Gobierno Regional",
+        "phone": "+51 986961075",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3324439,
+          -13.0331788
+        ]
+      },
+      "id": "way/507127478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511186465",
+        "addr:street": "Calle Santa Barbara",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Centro Médico de San Luis",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4282568,
+          -13.0555479
+        ]
+      },
+      "id": "way/511186465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511187917",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Puesto de Salud Santa Bárbara",
+        "operator": "Gobierno Regional",
+        "phone": "+51 975495766",
+        "ref": "00006038",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4513247,
+          -13.0655433
+        ]
+      },
+      "id": "way/511187917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513978220",
+        "addr:full": "Mz. A Lote 1 Y 2 - Avenida Pachacutec Anexo 22",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Materno Infatil Pedro Abraham López Guillen",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3539672",
+        "ref:category": "I-2",
+        "ref:microred": "3",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9612444,
+          -11.9235096
+        ]
+      },
+      "id": "way/513978220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516268796",
+        "addr:full": "Calle San Martelo - Centro Poblado Yangas",
+        "amenity": "hospital",
+        "name": "Centro de Salud Yangas",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2444034",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "10",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8461347,
+          -11.6956985
+        ]
+      },
+      "id": "way/516268796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517495828",
+        "addr:city": "Santa Anita",
+        "addr:full": "Carretera Central Kilómetro 3.5",
+        "addr:state": "Lima",
+        "alt_name": "Jorge Voto Bernales Corpancho",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Jorge Voto Bernales",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+51 1 3544747",
+        "ref": "00008318",
+        "ref:category": "II-1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9472387,
+          -12.0454468
+        ]
+      },
+      "id": "way/517495828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519186974",
+        "addr:city": "Cieneguilla",
+        "addr:street": "Avenida Pachacutec",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Policlínico Municipal",
+        "operator": "Municipalidad de Cieneguilla",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8150968,
+          -12.113617
+        ]
+      },
+      "id": "way/519186974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519727318",
+        "addr:full": "Centro Poblado la Villa",
+        "amenity": "hospital",
+        "building": "house",
+        "name": "Puesto de Salud La Villa",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2379050",
+        "ref:category": "I-2",
+        "ref:microred": "4",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3814625,
+          -11.2348804
+        ]
+      },
+      "id": "way/519727318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519736752",
+        "addr:full": "Centro Poblado 9 de Octubre",
+        "amenity": "hospital",
+        "building": "house",
+        "name": "Centro de Salud 9 de Octubre",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2379026",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4132174,
+          -11.2170587
+        ]
+      },
+      "id": "way/519736752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/520372914",
+        "addr:housenumber": "281",
+        "addr:street": "Avenida Chancay",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Ismael Guzman Valverde",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 3355976",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "3",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2104964,
+          -11.4969447
+        ]
+      },
+      "id": "way/520372914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549170909",
+        "addr:city": "Puente Piedra",
+        "addr:street": "Jirón Jacaranda",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud La Ensenada",
+        "operator": "MINSA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0936827,
+          -11.9354554
+        ]
+      },
+      "id": "way/549170909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556886408",
+        "addr:city": "San Mateo de Huanchor",
+        "addr:full": "Jirón Lima N°802-San Mateo de Huanchor",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud San Mateo",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+511 3559719",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2983388,
+          -11.7576987
+        ]
+      },
+      "id": "way/556886408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/572930178",
+        "addr:city": "San Pedro de Coayllo",
+        "addr:street": "Jirón Bolognesi",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puesto de Salud Coayllo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 6949627",
+        "ref": "00006057",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4614379,
+          -12.7269627
+        ]
+      },
+      "id": "way/572930178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/604765913",
+        "addr:city": "Rímac",
+        "addr:housenumber": "1377",
+        "addr:street": "Avenida Flor de Amancaes",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Amancaes",
+        "old_name": "Hospital de la Solidaridad Amancaes",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-14:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 415 7970",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.030133,
+          -12.0170928
+        ]
+      },
+      "id": "way/604765913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/606807728",
+        "addr:street": "Avenida Las Americas",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "centre",
+        "name": "Puesto de Salud Mazo",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2377209",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6065709,
+          -11.0237063
+        ]
+      },
+      "id": "way/606807728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/607530492",
+        "addr:city": "Chancay",
+        "addr:street": "Calle Mariscal Sucre",
+        "amenity": "hospital",
+        "email": "informes@hospitaldechancay.com.pe",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital de Chancay",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 3771037",
+        "ref:category": "II-2",
+        "ref:microred": "0",
+        "ref:red": "3",
+        "website": "http://www.hospitaldechancay.gob.pe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2707986,
+          -11.5607807
+        ]
+      },
+      "id": "way/607530492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618688385",
+        "addr:city": "Miraflores",
+        "addr:housenumber": "6355 - 6375",
+        "addr:postcode": "15048",
+        "addr:street": "Avenida Roosevelt",
+        "amenity": "hospital",
+        "email": "comunicaciones@hejcu.gob.pe",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital José Casimiro Ulloa",
+        "operator": "MINSA",
+        "phone": "+511 2040900",
+        "website": "http://www.hejcu.gob.pe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0177417,
+          -12.1281002
+        ]
+      },
+      "id": "way/618688385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620376082",
+        "addr:city": "Chorrillos",
+        "addr:street": "Jirón Nevado Carhuazo",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "centre",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Delicias de Villa",
+        "operator": "MINSA",
+        "phone": "+51 01 2585457",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9931026,
+          -12.1986629
+        ]
+      },
+      "id": "way/620376082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/641089582",
+        "addr:city": "Antioquía",
+        "addr:street": "Calle Santa Rosa",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Antioquía",
+        "operator": "MINSA",
+        "phone": "+51 01 3559720",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5057709,
+          -12.0791989
+        ]
+      },
+      "id": "way/641089582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/661062159",
+        "addr:city": "San Joaquín",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puesto de Salud San Joaquín",
+        "operator": "MINSA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1469313,
+          -12.2838013
+        ]
+      },
+      "id": "way/661062159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663864642",
+        "addr:city": "San Pedro de Huancayre",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puesto de Salud San Pedro de Huancayre",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3559720",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2150492,
+          -12.1319515
+        ]
+      },
+      "id": "way/663864642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663875574",
+        "addr:city": "San Juan de Tantaranche",
+        "addr:street": "Jirón Caceres",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Posta Médica de San Juan de Tantaranche",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3559720",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1820532,
+          -12.1119677
+        ]
+      },
+      "id": "way/663875574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/664871487",
+        "addr:city": "San Pedro de Huallanchi",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puesto de Salud Huallanchi",
+        "operator": "Gobierno Regional",
+        "phone": "+511 5308188",
+        "ref:category": "I-1",
+        "ref:microred": "6",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4937908,
+          -12.2326167
+        ]
+      },
+      "id": "way/664871487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/686127970",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Cajatambo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 2442042",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "1",
+        "wikidata": "Q2638247",
+        "wikipedia": "es:Cajatambo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9925479,
+          -10.4724113
+        ]
+      },
+      "id": "way/686127970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699538736",
+        "addr:city": "Ate",
+        "addr:full": "Av. Rivadeneira Mz. F Lote 5 y 6 Urb. Ceres",
+        "addr:street": "Bernardino Rivadavia",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Ate",
+        "old_name": "Hospital de la Solidadridad ATE",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+51 1 3850954",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9262702,
+          -12.0289805
+        ]
+      },
+      "id": "way/699538736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699540898",
+        "addr:city": "Cercado de Lima",
+        "addr:housenumber": "700",
+        "addr:street": "Jirón Camaná",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "7",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Camaná",
+        "old_name": "Hospital de la Solidaridad Camaná",
+        "opening_hours": "Mo-Sa 06:30-20:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:wikidata": "Q12184118",
+        "phone": "+511 426 4619",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0353334,
+          -12.0493096
+        ]
+      },
+      "id": "way/699540898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699674838",
+        "addr:city": "Los Olivos",
+        "addr:housenumber": "3514",
+        "addr:street": "Avenida Universitaria",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Los Olivos",
+        "old_name": "Hospital de la Solidaridad Los Olivos",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 771 4627",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0768774,
+          -11.9792433
+        ]
+      },
+      "id": "way/699674838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699686753",
+        "addr:city": "Punta Hermosa",
+        "addr:full": "Antigua Panamericana Sur Km. 43, Punta Hermosa",
+        "addr:street": "Avenida Antigua Panamericana Sur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Punta Hermosa",
+        "old_name": "Hospital de la Solidaridad Punta Hermosa",
+        "opening_hours": "Mo-Sa 07:30-19:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 726 0130",
+        "website": "https://www.sisol.gob.pe/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8248976,
+          -12.3269934
+        ]
+      },
+      "id": "way/699686753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699789659",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Policlinico Municipal Surquillo",
+        "operator": "Municipalidad de Surquillo",
+        "status": "inactive",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0113691,
+          -12.1129382
+        ]
+      },
+      "id": "way/699789659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738272906",
+        "amenity": "clinic",
+        "ele": "3",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Posta Sagrado Corazón de Jesús",
+        "operator": "Municipalidad de Los Olivos",
+        "operator:type": "public",
+        "phone": "+511 5226756",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "25",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0761687,
+          -11.9820189
+        ]
+      },
+      "id": "way/738272906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/795121932",
+        "addr:street": "Los Ficus",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Centro Médico Las Violetas",
+        "opening_hours": "Mo-Sa 08:00-17:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 534 5510",
+        "website": "https://www.sisol.gob.pe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0524189,
+          -12.0052514
+        ]
+      },
+      "id": "way/795121932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/803210301",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica San Borja",
+        "operator": "Municipalidad de San Borja",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0064294,
+          -12.1087385
+        ]
+      },
+      "id": "way/803210301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817697074",
+        "addr:housenumber": "350",
+        "addr:street": "Jirón Alfonso Ugarte",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Hospital Laura Esther Rodriguez Dulanto de Supe",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2364323",
+        "ref:category": "II-1",
+        "ref:microred": "0",
+        "ref:red": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7177056,
+          -10.7972335
+        ]
+      },
+      "id": "way/817697074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817697924",
+        "addr:full": "Avenida Victoria, Asentamiento Humano Esperanza Baja",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud la Querencia",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+511 2464464",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2528396,
+          -11.4508117
+        ]
+      },
+      "id": "way/817697924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817719710",
+        "addr:street": "Avenida Florida",
+        "amenity": "hospital",
+        "name": "Hospital San Juan de Matucana",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3782051",
+        "ref:category": "II-1",
+        "ref:microred": "0",
+        "ref:red": "9",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3818428,
+          -11.8431317
+        ]
+      },
+      "id": "way/817719710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/835415398",
+        "addr:city": "La Molina",
+        "addr:housenumber": "956",
+        "addr:neighbourhood": "Urbanización Covima",
+        "addr:postcode": "15012",
+        "addr:street": "Avenida Flora Tristán",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro Médico Municipal Molisalud",
+        "operator": "Municipalidad de La Molina",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9459778,
+          -12.0636
+        ]
+      },
+      "id": "way/835415398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/891369234",
+        "addr:housenumber": "129",
+        "addr:street": "Avenida Los Libertadores",
+        "amenity": "clinic",
+        "name": "Vegueta",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2377066",
+        "ref": "00005673",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6383378,
+          -11.0218448
+        ]
+      },
+      "id": "way/891369234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/892095020",
+        "amenity": "clinic",
+        "name": "Buena Vista",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2352075",
+        "ref": "00005697",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7463583,
+          -10.7473792
+        ]
+      },
+      "id": "way/892095020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/892111802",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mariátegui",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 1 3041425",
+        "ref": "00005676",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6466794,
+          -10.9643149
+        ]
+      },
+      "id": "way/892111802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/941610670",
+        "addr:district": "Cieneguilla",
+        "addr:street": "Avenida Manco Capac",
+        "amenity": "clinic",
+        "healthcare": "centre",
+        "healthcare:speciality": "general",
+        "name": "Centro Materno Infantil Tambo Viejo",
+        "operator": "MINSA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8185251,
+          -12.1111781
+        ]
+      },
+      "id": "way/941610670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/948515671",
+        "air_conditioning": "no",
+        "alt_name": "Centro de Salud Antirrábico",
+        "alt_name:en": "Anti Rabies Health Center",
+        "alt_name:es": "Centro de Salud Antirrábico",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2024-12-26",
+        "healthcare": "clinic",
+        "healthcare:speciality": "zoonosis;rabies",
+        "name": "Centro de Salud Control de Zoonosis",
+        "name:en": "Zoonosis Control Health Center",
+        "name:es": "Centro de Salud Control de Zoonosis",
+        "opening_hours": "Mo-Sa 08:00-13:00,14:00-19:00",
+        "operator": "MINSA",
+        "operator:type": "government",
+        "payment:cash": "yes",
+        "payment:yape": "yes",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0621246,
+          -12.0498658
+        ]
+      },
+      "id": "way/948515671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/957406733",
+        "addr:street": "Avenida Santa Rosa",
+        "amenity": "clinic",
+        "name": "Mala",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6314177,
+          -12.6634138
+        ]
+      },
+      "id": "way/957406733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1059717579",
+        "addr:housenumber": "690",
+        "addr:street": "Avenida Mariano Ignacio Prado",
+        "amenity": "clinic",
+        "name": "Chilca",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 5305224",
+        "ref:category": "I-3",
+        "ref:microred": "2",
+        "ref:red": "8",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7394879,
+          -12.5188293
+        ]
+      },
+      "id": "way/1059717579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3063482681",
+        "addr:city": "San Luis",
+        "addr:housenumber": "2161",
+        "addr:street": "Avenida Circunvalación",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "EsSalud Policlínico San Luis",
+        "opening_hours": "Mo-Sa 06:00-19:00; Su 09:00-13:00",
+        "operator": "EsSalud",
+        "operator:type": "private",
+        "phone": "+511 3262599"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9920857,
+          -12.0732067
+        ]
+      },
+      "id": "node/3063482681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3230315412",
+        "addr:city": "Jesús María",
+        "addr:housenumber": "223",
+        "addr:street": "Jirón Coronel Cipriano Zegarra",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Nacional de Salud Renal",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "phone": "+51 1 4719999",
+        "website": "http://www.essalud.gob.pe/centro-nacional-de-salud-renal/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0384851,
+          -12.0772823
+        ]
+      },
+      "id": "node/3230315412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4024888158",
+        "addr:street": "Jirón Lima",
+        "amenity": "hospital",
+        "name": "Puesto de Salud \"Puente Auco\"",
+        "operator": "Gobierno Regional",
+        "phone": "+51 954751039",
+        "ref:category": "I-2",
+        "ref:microred": "4",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9503575,
+          -12.586091
+        ]
+      },
+      "id": "node/4024888158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4840488442",
+        "addr:street": "Jirón Bolivia",
+        "amenity": "hospital",
+        "name": "Centro de Salud Vitis",
+        "name:es": "Centro de Salud Vitis",
+        "operator": "Gobierno Regional",
+        "phone": "+511 8406047",
+        "ref:category": "I-2",
+        "ref:microred": "5",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8085443,
+          -12.224581
+        ]
+      },
+      "id": "node/4840488442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4850387121",
+        "addr:city": "Santa Anita",
+        "addr:housenumber": "189",
+        "addr:street": "Calle San Pablo",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/ClinicaMunicipalDeSantaAnita/",
+        "healthcare": "clinic",
+        "healthcare:speciality": "cardiology;endocrinology;gynaecology;psychiatry;urology;gastroenterology;dermatology;dentist;physiotherapy;general;emergency",
+        "name": "Clínica Municipal Santa Anita",
+        "opening_hours": "24/7",
+        "operator": "Municipalida de Santa Anita",
+        "operator:type": "public",
+        "phone": "+51 1 6371438",
+        "website": "https://clinica-municipal-santa-anita.negocio.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9518073,
+          -12.0356155
+        ]
+      },
+      "id": "node/4850387121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4851791224",
+        "addr:street": "Jirón Bernardo Alcedo",
+        "amenity": "clinic",
+        "name": "Zuñiga",
+        "name:es": "Puesto de Salud",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-2",
+        "ref:microred": "3",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0222058,
+          -12.8602251
+        ]
+      },
+      "id": "node/4851791224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4884102510",
+        "addr:city": "Jesús María",
+        "addr:street": "Jirón Mariscal Miller",
+        "amenity": "clinic",
+        "fuel:diesel": "http://www.essalud.gob.pe/inauguran-moderno-centro-de-emergencia-de-essalud-valorizado-en-mas-de-s-100-millones/",
+        "healthcare": "clinic",
+        "healthcare:speciality": "emergency",
+        "name": "Centro de Emergencia del Hospital Nacional Edgardo Rebagliati Martins",
+        "operator": "EsSalud",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0382988,
+          -12.0792505
+        ]
+      },
+      "id": "node/4884102510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4957403323",
+        "addr:full": "Centro Poblado Tunan",
+        "amenity": "hospital",
+        "name": "Puesto de Salud Tunan",
+        "name:es": "Puesto de Salud Tunan",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2360738",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7591198,
+          -10.5664266
+        ]
+      },
+      "id": "node/4957403323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485493582",
+        "addr:city": "San Borja",
+        "addr:housenumber": "285",
+        "addr:street": "Avenida San Borja Sur",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "surgery",
+        "name": "SISOL Salud Centro Quirúrgico",
+        "old_name": "Hospital de la Solidaridad San Borja",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "phone": "+511 495 6004",
+        "website": "https://www.sisol.gob.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.007959,
+          -12.1004575
+        ]
+      },
+      "id": "node/5485493582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6571247132",
+        "addr:city": "San Juan de Lurigancho",
+        "addr:full": "Avenida República de Polonia Asentamiento Humano Trabajadores",
+        "addr:street": "Avenida Republica de Polonia",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "SISOL Salud Centro Médico Trabajadores Hospital del Niño",
+        "old_name": "Hospital de la Solidaridad Trabajadores Hospital del Niño",
+        "opening_hours": "Mo-Sa 08:00-17:00",
+        "operator": "Municipalidad Metropolitana de Lima",
+        "operator:wikidata": "Q12184118",
+        "phone": "+511 387 0490",
+        "website": "https://www.sisol.gob.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.990319,
+          -11.9585671
+        ]
+      },
+      "id": "node/6571247132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6577831603",
+        "addr:city": "Chorrillos",
+        "addr:street": "Calle 15 de Octubre",
+        "amenity": "clinic",
+        "healthcare": "centre",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Buenos Aires de Villa",
+        "operator": "MINSA",
+        "phone": "+51 01 2583948",
+        "ref:category": "I-4",
+        "ref:microred": "2",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0050294,
+          -12.188693
+        ]
+      },
+      "id": "node/6577831603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652448548",
+        "addr:city": "Jesús María",
+        "addr:housenumber": "1302",
+        "addr:street": "Avenida Álvarez de Arenales",
+        "alt_name": "Programa de Atención a Domiciliaria",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;geriatrics",
+        "name": "PADOMI",
+        "operator": "EsSalud",
+        "operator:type": "public",
+        "room": "212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369715,
+          -12.078143
+        ]
+      },
+      "id": "node/6652448548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6848531503",
+        "addr:street": "Calle San Martin",
+        "amenity": "clinic",
+        "name": "Ambar",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 6885942",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2721798,
+          -10.7565681
+        ]
+      },
+      "id": "node/6848531503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6848848301",
+        "addr:full": "Centro Poblado Huayopampa",
+        "amenity": "clinic",
+        "name": "Huayopampa",
+        "operator": "Gobierno Regional",
+        "phone": "+51 975512476",
+        "ref:category": "I-3",
+        "ref:microred": "8",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8235475,
+          -11.3552285
+        ]
+      },
+      "id": "node/6848848301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852269299",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "clinic",
+        "name": "Palpa",
+        "operator": "Gobierno Regional",
+        "phone": "+51 997869001",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1196548,
+          -11.4883476
+        ]
+      },
+      "id": "node/6852269299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852269301",
+        "addr:full": "Centro Poblado Aucallama",
+        "amenity": "clinic",
+        "name": "Aucallama",
+        "operator": "Gobierno Regional",
+        "phone": "+51 945091764",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1757338,
+          -11.5608465
+        ]
+      },
+      "id": "node/6852269301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852718357",
+        "addr:street": "Calle Socabaya",
+        "amenity": "clinic",
+        "name": "Lauriama",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 2354677",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7568,
+          -10.7465417
+        ]
+      },
+      "id": "node/6852718357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852718358",
+        "addr:full": "Avenida Florida -Centro Poblado San Alejo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pampa San Alejo",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 1 2352075",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6795884,
+          -10.6871303
+        ]
+      },
+      "id": "node/6852718358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858834565",
+        "amenity": "clinic",
+        "name": "Huinco",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 3559720",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.614241,
+          -11.7701347
+        ]
+      },
+      "id": "node/6858834565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6858852063",
+        "addr:street": "Calle Mariategui",
+        "amenity": "clinic",
+        "is_in:department": "Lima",
+        "is_in:district": "Catahuasi",
+        "name": "Catahuasi",
+        "operator": "Gobierno Regional",
+        "phone": "+51 992787043",
+        "ref:category": "I-3",
+        "ref:microred": "7",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8924146,
+          -12.7991582
+        ]
+      },
+      "id": "node/6858852063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6861248684",
+        "amenity": "clinic",
+        "name": "Clas Pedro Canevaro Garay de Chancayllo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 999094538",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3052452,
+          -11.489382
+        ]
+      },
+      "id": "node/6861248684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6861281686",
+        "amenity": "clinic",
+        "name": "Peralvillo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 01 3771261",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2617843,
+          -11.589614
+        ]
+      },
+      "id": "node/6861281686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913674358",
+        "addr:housenumber": "746",
+        "addr:street": "Avenida Domingo Mandamiento",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Domingo Mandamiento",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+511 2392496",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.59794,
+          -11.0974533
+        ]
+      },
+      "id": "node/6913674358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913674360",
+        "addr:housenumber": "371",
+        "addr:street": "Avenida Hualmay",
+        "amenity": "clinic",
+        "name": "Hualmay",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2394342",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6066588,
+          -11.0954807
+        ]
+      },
+      "id": "node/6913674360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6916505923",
+        "addr:street": "Avenida los Geranios",
+        "amenity": "clinic",
+        "name": "El Trebol",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2342939,
+          -11.4980083
+        ]
+      },
+      "id": "node/6916505923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6916725424",
+        "addr:street": "Avenida Santa Rosa",
+        "amenity": "clinic",
+        "name": "Huarochiri",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3559720",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2346017,
+          -12.1385206
+        ]
+      },
+      "id": "node/6916725424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6916795134",
+        "addr:street": "Avenida San Francisco",
+        "amenity": "clinic",
+        "name": "Huaura",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3411810",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5991176,
+          -11.0676508
+        ]
+      },
+      "id": "node/6916795134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6916795135",
+        "addr:street": "Avenida Ancash",
+        "amenity": "clinic",
+        "name": "Socorro",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3414450",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6057681,
+          -11.0707728
+        ]
+      },
+      "id": "node/6916795135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928680851",
+        "addr:full": "Centro Poblado Yunguy",
+        "amenity": "clinic",
+        "name": "Yunguy",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2462990",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.934773,
+          -11.2873519
+        ]
+      },
+      "id": "node/6928680851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928763270",
+        "addr:full": "Avenida los Ficus Cuadra 3, Urbanización Las Violetas",
+        "amenity": "clinic",
+        "name": "Sistema Metropolitano de la Solidaridad / Solidaridad Salud \"LAS Violetas\"",
+        "operator": "Municipalidad Provincial",
+        "phone": "+511 54345510",
+        "ref:category": "I-3",
+        "ref:microred": "0",
+        "ref:red": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427505,
+          -12.0425547
+        ]
+      },
+      "id": "node/6928763270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061603578",
+        "addr:full": "Centro Poblado Pacaraos",
+        "amenity": "clinic",
+        "name": "Pacaraos",
+        "operator": "Gobierno Regional",
+        "phone": "+511 8100807",
+        "ref:category": "I-3",
+        "ref:microred": "7",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6493144,
+          -11.1879053
+        ]
+      },
+      "id": "node/7061603578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061608792",
+        "addr:housenumber": "270",
+        "addr:street": "Calle Alfonso Ugarte",
+        "amenity": "clinic",
+        "name": "Oyon",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2372015",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.772513,
+          -10.6655876
+        ]
+      },
+      "id": "node/7061608792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061640460",
+        "addr:street": "Pasaje Santa Rosa",
+        "amenity": "clinic",
+        "name": "Pacaran",
+        "operator": "Gobierno Regional",
+        "phone": "+51 975766706",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0524655,
+          -12.8672473
+        ]
+      },
+      "id": "node/7061640460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061715918",
+        "addr:street": "Avenida Fuentes Rivera",
+        "amenity": "clinic",
+        "name": "Churin",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2373027",
+        "ref:category": "I-3",
+        "ref:microred": "5",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8765226,
+          -10.8151843
+        ]
+      },
+      "id": "node/7061715918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063969585",
+        "amenity": "clinic",
+        "name": "Pativilca",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2388095",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7799228,
+          -10.6962016
+        ]
+      },
+      "id": "node/7063969585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070157778",
+        "addr:housenumber": "103",
+        "addr:street": "Avenida Alameda Grau",
+        "amenity": "clinic",
+        "name": "Ricardo Palma",
+        "operator": "Gobierno Regional",
+        "phone": "+51 949993636",
+        "ref:category": "I-4",
+        "ref:microred": "3",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6639693,
+          -11.9234655
+        ]
+      },
+      "id": "node/7070157778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070475136",
+        "addr:street": "Calle Libertad",
+        "amenity": "clinic",
+        "name": "San Antonio",
+        "operator": "Gobierno Regional",
+        "phone": "+511 5308046",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6542471,
+          -12.6367658
+        ]
+      },
+      "id": "node/7070475136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7072436148",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Quiripa",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+511 3559720",
+        "ref:category": "I-1",
+        "ref:microred": "1",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2348903,
+          -12.2071466
+        ]
+      },
+      "id": "node/7072436148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073197922",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ichoca",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+51 949991011",
+        "ref:category": "I-1",
+        "ref:microred": "4",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3595534,
+          -11.8000275
+        ]
+      },
+      "id": "node/7073197922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073197923",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "San Miguel de Viso",
+        "operator": "Gobierno Regional",
+        "operator:wikidata": "Q3824815",
+        "phone": "+511 3559719",
+        "ref:category": "I-1",
+        "ref:microred": "4",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3256352,
+          -11.8057305
+        ]
+      },
+      "id": "node/7073197923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073231209",
+        "amenity": "clinic",
+        "name": "Lanca",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3539672",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5446867,
+          -11.8699067
+        ]
+      },
+      "id": "node/7073231209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073264065",
+        "addr:full": "Centro Poblado Acos",
+        "amenity": "clinic",
+        "name": "Acos",
+        "operator": "Gobierno Regional",
+        "phone": "+51 945979675",
+        "ref:category": "I-3",
+        "ref:microred": "6",
+        "ref:red": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8198766,
+          -11.2738777
+        ]
+      },
+      "id": "node/7073264065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080096096",
+        "addr:full": "Calle Mariano Melgar Mz. Bo Lte. 6 - Asociación Pueblo Nuevo",
+        "amenity": "clinic",
+        "name": "Buenos Aires",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3539672",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6731631,
+          -11.9150728
+        ]
+      },
+      "id": "node/7080096096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080122525",
+        "addr:street": "Avenida Rosa Davila",
+        "amenity": "clinic",
+        "name": "Cocachacra",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3539672",
+        "ref:category": "I-3",
+        "ref:microred": "3",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5405283,
+          -11.9093733
+        ]
+      },
+      "id": "node/7080122525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080130361",
+        "addr:city": "Huacho",
+        "addr:neighbourhood": "Barrio pequeño",
+        "addr:street": "Jose Santos Chocano",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics;internal",
+        "name": "Posta de San Bartolomé",
+        "operator": "Gobierno Regional",
+        "operator:type": "public",
+        "operator:wikidata": "Q3824815",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5873781,
+          -11.1072995
+        ]
+      },
+      "id": "node/7080130361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080164205",
+        "addr:housenumber": "833",
+        "addr:street": "Avenida Libertad",
+        "amenity": "clinic",
+        "name": "Santa Maria",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2394102",
+        "ref:category": "I-3",
+        "ref:microred": "1",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.574346,
+          -11.0978301
+        ]
+      },
+      "id": "node/7080164205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080561918",
+        "addr:street": "Avenida Tupac Amaru",
+        "amenity": "clinic",
+        "name": "Sayan",
+        "operator": "Gobierno Regional",
+        "phone": "+511 2371013",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1934194,
+          -11.1319277
+        ]
+      },
+      "id": "node/7080561918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082510274",
+        "addr:street": "Jirón Alfonso Ugarte Y Sanchez Cerro",
+        "amenity": "clinic",
+        "name": "San Geronimo de Surco",
+        "operator": "Gobierno Regional",
+        "phone": "+511 3559719",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.440288,
+          -11.8848965
+        ]
+      },
+      "id": "node/7082510274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7092029029",
+        "addr:city": "Chorrillos",
+        "addr:housenumber": "2007",
+        "addr:street": "Avenida Defensores del Morro",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/Chorrisalud/",
+        "health_facility:type": "clinic",
+        "healthcare": "yes",
+        "healthcare:speciality": "general;pediatrics;cardiology;ophthalmology;mental_health;laboratory;neurology;dermatology;otorhinolaryngology",
+        "name": "Policlinico Chorrisalud",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Municipalidad Distrital de Chorrillos",
+        "operator:type": "government",
+        "source": "Reconocimiento cartográfico de campo 2016 por KG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0137383,
+          -12.1796526
+        ]
+      },
+      "id": "node/7092029029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113136276",
+        "addr:street": "Calle General Varella",
+        "amenity": "clinic",
+        "name": "Yauyos",
+        "operator": "Gobierno Regional",
+        "ref:category": "I-3",
+        "ref:microred": "4",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9163509,
+          -12.4589743
+        ]
+      },
+      "id": "node/7113136276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7561126947",
+        "addr:city": "Surquillo",
+        "addr:housenumber": "1070",
+        "addr:street": "Calle General Suárez",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Policlínico Suárez",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "operator": "EsSalud",
+        "operator:type": "private",
+        "phone": "+51 1 4441985",
+        "website": "http://www.essalud.gob.pe/nuestras-redes-asistenciales/surquillo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0273064,
+          -12.1096617
+        ]
+      },
+      "id": "node/7561126947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285263634",
+        "addr:housenumber": "165",
+        "addr:street": "Jirón Leoncio Prado",
+        "amenity": "clinic",
+        "name": "Primavera",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 7264808",
+        "ref": "00005675",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6099898,
+          -11.0114769
+        ]
+      },
+      "id": "node/8285263634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285299511",
+        "addr:street": "Calle Calle Nuevo Paraiso",
+        "amenity": "clinic",
+        "name": "Araya Grande",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2352075",
+        "ref": "00005689",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6258212,
+          -10.6741727
+        ]
+      },
+      "id": "node/8285299511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285316188",
+        "addr:street": "Avenida Simón Bolívar",
+        "amenity": "clinic",
+        "name": "Medio Mundo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 7656313",
+        "ref": "00005677",
+        "ref:category": "I-2",
+        "ref:microred": "2",
+        "ref:red": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6520178,
+          -10.9279556
+        ]
+      },
+      "id": "node/8285316188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285443009",
+        "amenity": "clinic",
+        "name": "Omas",
+        "operator": "Gobierno Regional",
+        "phone": "+51 956856448",
+        "ref": "00006061",
+        "ref:category": "I-2",
+        "ref:microred": "4",
+        "ref:red": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2892614,
+          -12.5164787
+        ]
+      },
+      "id": "node/8285443009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285484171",
+        "addr:full": "Avenida Túpac Amaru",
+        "amenity": "clinic",
+        "name": "Buenos Aires",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 2363643",
+        "ref": "00005713",
+        "ref:category": "I-2",
+        "ref:microred": "3",
+        "ref:red": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7740392,
+          -10.6954817
+        ]
+      },
+      "id": "node/8285484171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285518959",
+        "amenity": "clinic",
+        "name": "San Pedro de Pilas",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 5308188",
+        "ref": "00006064",
+        "ref:category": "I-2",
+        "ref:microred": "4",
+        "ref:red": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2268009,
+          -12.4546456
+        ]
+      },
+      "id": "node/8285518959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285524026",
+        "amenity": "clinic",
+        "name": "Ayaviri",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 5308188",
+        "ref": "00006058",
+        "ref:category": "I-2",
+        "ref:microred": "4",
+        "ref:red": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1406559,
+          -12.3831014
+        ]
+      },
+      "id": "node/8285524026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285539206",
+        "addr:housenumber": "413",
+        "addr:street": "Calle Arequipa",
+        "amenity": "clinic",
+        "name": "Herbay Bajo",
+        "operator": "Gobierno Regional",
+        "phone": "+51 945042943",
+        "ref": "00006041",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3942786,
+          -13.1298797
+        ]
+      },
+      "id": "node/8285539206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285587592",
+        "addr:street": "Calle Principal",
+        "amenity": "clinic",
+        "name": "Herbay Alto",
+        "operator": "Gobierno Regional",
+        "phone": "+51 945042936",
+        "ref": "00006042",
+        "ref:category": "I-2",
+        "ref:microred": "1",
+        "ref:red": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3471923,
+          -13.1356085
+        ]
+      },
+      "id": "node/8285587592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8292269357",
+        "addr:street": "Avenida Lima",
+        "amenity": "clinic",
+        "name": "Piedra Grande",
+        "operator": "Gobierno Regional",
+        "phone": "+51 1 5308188",
+        "ref": "00007642",
+        "ref:category": "I-2",
+        "ref:microred": "6",
+        "ref:red": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4754177,
+          -12.2573536
+        ]
+      },
+      "id": "node/8292269357"
+    }
+  ]
+}

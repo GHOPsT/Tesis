@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.map-container {
+  flex: 2;
+  height: 600px;
+}
+
+.info-container {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-left: 1px solid #ccc;
+}
+
+.info-container h2 {
+  margin-bottom: 10px;
+}
+
+.info-container p {
+  margin: 5px 0;
+}
