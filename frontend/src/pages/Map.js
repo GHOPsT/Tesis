@@ -56,17 +56,21 @@ const HospitalMap = () => {
     return processedData;
   }, []);
 
+  // Cargar datos desde el backend
   useEffect(() => {
-    fetch('/data/lima_hospitals.geojson')
-    .then(res => res.json())
-    .then(json => {
-      setData(json);
-      setHospitalsData(processHospitalData(json));
-    })
-    .catch(err => {
-      console.error('Error cargando el archivo GeoJSON:', err);
-    });
-  }, [processHospitalData]);
+    fetch('http://localhost:5000/api/centro/geojson')  // Nuevo endpoint
+      .then(res => res.json())
+      .then(json => {
+        setData(json);
+        setHospitalsData(json.features.reduce((acc, feature) => ({
+          ...acc,
+          [feature.properties.name]: {
+            coordinates: [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+            district: feature.properties.district  // Asegúrate de que el GeoJSON incluya esto
+          }
+        }), {}));
+      });
+  }, []);
 
   // Buscador
   useEffect(() => {
@@ -80,10 +84,19 @@ const HospitalMap = () => {
     }
   }, [searchTerm, hospitalsData]); // Ahora incluye hospitalsData
 
-  const handleMarkerClick = useCallback((feature) => {
+  // Manejar clic en marcador
+  const handleMarkerClick = useCallback(async (feature) => {
     const hospitalName = feature.properties.name;
-    updateSelectedHospital(hospitalName);
-  }, [hospitalsData]);
+    const response = await fetch(`/api/predicciones/${hospitalName}/specialties`);
+    const specialties = await response.json();
+    
+    setSelectedHospital({
+      name: hospitalName,
+      specialties,
+      coordinates: [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+      district: feature.properties.district
+    });
+  }, []);
 
   const updateSelectedHospital = (hospitalName) => {
     if (hospitalsData[hospitalName]) {

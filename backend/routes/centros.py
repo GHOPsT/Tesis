@@ -1,26 +1,23 @@
-from flask import Blueprint, jsonify
-from services.geo_service import get_centros_cercanos
+from flask import Blueprint, jsonify, request
+import json
 
-centros_bp = Blueprint('centros', __name__)
+centros_bp = Blueprint('centro', __name__)
 
-# Endpoint 1: Obtener todos los centros (GeoJSON)
-@centros_bp.route('/', methods=['GET'])
-def obtener_centros():
-    with open('static/data/lima_hospitals.geojson') as f:
-        return jsonify(json.load(f))
+@centros_bp.route('/geojson', methods=['GET'])
+def get_geojson():
+    """Devuelve datos GeoJSON de hospitales."""
+    try:
+        # Cargar el archivo GeoJSON
+        with open('data/lima_hospitals.geojson', 'r', encoding='utf-8') as f:
+            return jsonify(json.load(f))
+    except FileNotFoundError:
+        return jsonify({"error": "Archivo GeoJSON no encontrado"}), 404
+    except UnicodeDecodeError:
+        return jsonify({"error": "Problema de codificación en el archivo"}), 500
 
-# Endpoint 2: Buscar centros por nombre
 @centros_bp.route('/buscar', methods=['GET'])
 def buscar_centros():
-    nombre = request.args.get('nombre')
+    """Búsqueda por nombre/distrito (opcional)."""
+    query = request.args.get('q')
     # ... lógica de búsqueda en DB
     return jsonify(results)
-
-# Endpoint 3: Centros en un radio (Geoespacial)
-@centros_bp.route('/cercanos', methods=['POST'])
-def centros_cercanos():
-    lat = request.json.get('lat')
-    lng = request.json.get('lng')
-    radio_km = request.json.get('radio')
-    centros = get_centros_cercanos(lat, lng, radio_km)
-    return jsonify(centros)
