@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { fetchPrediction } from '../services/api';
 
 // Configuración de íconos
 delete L.Icon.Default.prototype._getIconUrl;
@@ -19,6 +20,8 @@ const HospitalMap = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [hospitalsData, setHospitalsData] = useState({});
   const mapRef = useRef(null);
+  const [prediction, setPrediction] = useState(null); // 2. Estado para la predicción
+  const [loadingPrediction, setLoadingPrediction] = useState(false);
 
   // Datos ficticios de especialidades (sin coordenadas)
   const specialtiesTemplate = {
@@ -37,24 +40,6 @@ const HospitalMap = () => {
       { name: "Urología", doctorsNeeded: 2 }
     ]
   };
-
-  // Procesar datos GEOJSON y combinar con especialidades
-  const processHospitalData = useCallback((geoJsonData) => {
-    const processedData = {};
-    
-    geoJsonData.features.forEach(feature => {
-      const name = feature.properties.name;
-      processedData[name] = {
-        specialties: specialtiesTemplate[name] || [],
-        coordinates: [
-          feature.geometry.coordinates[1], // Lat
-          feature.geometry.coordinates[0]  // Lng
-        ]
-      };
-    });
-    
-    return processedData;
-  }, []);
 
   // Cargar datos desde el backend
   useEffect(() => {
@@ -119,7 +104,7 @@ const HospitalMap = () => {
         duration: 1
       });
     }
-  }, [hospitalsData]);
+  }, [hospitalsData, updateSelectedHospital]);
 
    // Nueva función para manejar la tecla Enter
    const handleKeyPress = useCallback((e) => {
@@ -139,6 +124,28 @@ const HospitalMap = () => {
       }
     }
   }, [searchTerm, hospitalsData, handleSearchSelect]);
+
+  const handleShowSpecialties = async () => {
+    setShowSpecialties(!showSpecialties);
+    if (!showSpecialties && selectedHospital) {
+      setLoadingPrediction(true);
+      // Puedes pedir año y mes actuales, o permitir que el usuario los elija
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = now.getMonth() + 1;
+      try {
+        const result = await fetchPrediction({
+          year,
+          month,
+          centro_salud: selectedHospital.name
+        });
+        setPrediction(result.prediction);
+      } catch (e) {
+        setPrediction('Error al obtener predicción');
+      }
+      setLoadingPrediction(false);
+    }
+  };
 
   return (
     <div style={{ 
@@ -360,7 +367,7 @@ const HospitalMap = () => {
                 </div>
                 
                 <button
-                  onClick={() => setShowSpecialties(!showSpecialties)}
+                  onClick={handleShowSpecialties}
                   style={{
                     width: '100%',
                     padding: '12px',
@@ -408,6 +415,14 @@ const HospitalMap = () => {
                       <span style={{ marginRight: '8px' }}>🩺</span>
                       Especialidades Médicas
                     </h4>
+                    {/* 4. Mostrar la predicción */}
+                    <div style={{ marginBottom: '10px', color: '#1976d2', fontWeight: 'bold' }}>
+                      {loadingPrediction
+                        ? 'Cargando predicción...'
+                        : prediction !== null
+                          ? `Predicción de especialistas necesarios: ${prediction}`
+                          : ''}
+                    </div>
                     <ul style={{ 
                       listStyle: 'none', 
                       padding: 0,
@@ -415,7 +430,7 @@ const HospitalMap = () => {
                       display: 'grid',
                       gap: '10px'
                     }}>
-                      {selectedHospital.specialties.map((specialty, index) => (
+                      {(selectedHospital.specialties || []).map((specialty, index) => (
                         <li key={index} style={{ 
                           backgroundColor: 'white',
                           borderRadius: '6px',

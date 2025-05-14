@@ -1,9 +1,14 @@
-from flask import Blueprint, jsonify
-from services.ml_service import predecir_necesidades
+from flask import Blueprint, request, jsonify
+from models.predictor import predict_specialists
 
 predicciones_bp = Blueprint('predicciones', __name__)
 
-@predicciones_bp.route('/<string:hospital_name>/specialties', methods=['GET'])
-def get_specialties(hospital_name):
-    """Devuelve especialidades predichas por ML."""
-    return jsonify(predecir_necesidades(hospital_name))
+@predicciones_bp.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json()
+    year = data.get('year')
+    month = data.get('month')
+    centro_salud = data.get('centro_salud')
+
+    result = predict_specialists(year, month, centro_salud)
+    return jsonify({'prediction': result})
