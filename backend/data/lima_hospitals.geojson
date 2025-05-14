@@ -4257,6 +4257,43 @@
         ]
       },
       "id": "node/8292269357"
-    }
+    },
+    {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1234567890",
+      "addr:city": "Omia",
+      "addr:district": "Omia",
+      "addr:province": "Rodríguez de Mendoza",
+      "addr:region": "Amazonas",
+      "addr:country": "PE",
+      "addr:full": "Jr. Amazonas S/N, Omia",
+      "addr:street": "Jr. Amazonas",
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital",
+      "healthcare:speciality": "general",
+      "name": "Centro de Salud Omia",
+      "name:es": "Centro de Salud Omia",
+      "operator": "Gobierno Regional de Amazonas",
+      "operator:type": "public",
+      "phone": "+51 412 123456",
+      "opening_hours": "24/7",
+      "emergency": "yes",
+      "wheelchair": "limited",
+      "beds": "20",
+      "source": "OpenStreetMap",
+      "website": "https://www.regionamazonas.gob.pe/",
+      "email": "salud@regionamazonas.gob.pe"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.520833, 
+        -6.376389
+      ]
+    },
+    "id": "node/1234567890"
+  }
   ]
 }
