@@ -133,15 +133,31 @@ const HospitalMap = () => {
       const now = new Date();
       const year = now.getFullYear();
       const month = now.getMonth() + 1;
+
+      // LOG: Verifica qué datos envías al backend
+      console.log('Enviando al backend:', {
+        year,
+        month,
+        centro_salud: selectedHospital.name
+      });
+
       try {
         const result = await fetchPrediction({
           year,
           month,
           centro_salud: selectedHospital.name
         });
+
+      // LOG: Verifica la respuesta del backend
+      console.log('Respuesta del backend:', result);
+
         setPrediction(result.prediction);
       } catch (e) {
         setPrediction('Error al obtener predicción');
+
+      // LOG: Verifica si hubo un error en la petición
+      console.error('Error en la petición de predicción:', e);
+      
       }
       setLoadingPrediction(false);
     }

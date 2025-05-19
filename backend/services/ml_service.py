@@ -1,22 +1,26 @@
-import joblib
-import pandas as pd
-from models.centro_salud import CentroSalud
+import json
+import os
+from models.predictor import predict_specialists, le_centro
 
-# Cargar modelo entrenado
-modelo_rf = joblib.load('ml/models/random_forest_model.pkl')
+def get_centro_by_id(centro_id):
+    data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'lima_hospitals.geojson')
+    with open(data_path, encoding='utf-8') as f:
+        data = json.load(f)
+    for feature in data['features']:
+        if feature.get('id') == centro_id or feature['properties'].get('@id') == centro_id:
+            return feature
+    return None
 
-def predecir_necesidades(centro_id):
-    # 1. Obtener datos del centro desde DB
-    centro = CentroSalud.query.get(centro_id)
-    
-    # 2. Preparar features para el modelo
-    features = pd.DataFrame([{
-        'ubicacion': centro.ubicacion,
-        'historico_pacientes': centro.historico_pacientes,
-        # ... más features
-    }])
-    
-    # 3. Predecir con Random Forest + Algoritmo Genético
-    necesidades = modelo_rf.predict(features)
-    
+def predecir_necesidades(centro_id, year, month):
+    centro = get_centro_by_id(centro_id)
+    if not centro:
+        return {"error": "Centro de salud no encontrado."}
+
+    nombre_centro = centro['properties']['name']
+
+    # Validar si el centro está en el encoder
+    if nombre_centro not in le_centro.classes_:
+        return {"error": f"El centro '{nombre_centro}' no está registrado en el modelo."}
+
+    necesidades = predict_specialists(year, month, nombre_centro)
     return necesidades
