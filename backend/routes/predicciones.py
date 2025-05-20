@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from models.predictor import predict_specialists
+from services.ml_service import predecir_necesidades
 
 predicciones_bp = Blueprint('predicciones', __name__)
 
@@ -10,5 +10,7 @@ def predict():
     month = data.get('month')
     centro_salud = data.get('centro_salud')
 
-    result = predict_specialists(year, month, centro_salud)
+    result = predecir_necesidades(centro_salud, year, month)
+    if 'error' in result:
+        return jsonify(result), 400
     return jsonify({'prediction': result})

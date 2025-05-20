@@ -22,6 +22,8 @@ const HospitalMap = () => {
   const mapRef = useRef(null);
   const [prediction, setPrediction] = useState(null); // 2. Estado para la predicción
   const [loadingPrediction, setLoadingPrediction] = useState(false);
+  const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
+  const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth() + 1);
 
   // Datos ficticios de especialidades (sin coordenadas)
   const specialtiesTemplate = {
@@ -129,22 +131,18 @@ const HospitalMap = () => {
     setShowSpecialties(!showSpecialties);
     if (!showSpecialties && selectedHospital) {
       setLoadingPrediction(true);
-      // Puedes pedir año y mes actuales, o permitir que el usuario los elija
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = now.getMonth() + 1;
 
       // LOG: Verifica qué datos envías al backend
       console.log('Enviando al backend:', {
-        year,
-        month,
+        year: selectedYear,
+        month: selectedMonth,
         centro_salud: selectedHospital.name
       });
 
       try {
         const result = await fetchPrediction({
-          year,
-          month,
+          year: selectedYear,
+          month: selectedMonth,
           centro_salud: selectedHospital.name
         });
 
@@ -361,7 +359,6 @@ const HospitalMap = () => {
                   }}>
                     {selectedHospital.name}
                   </h3>
-                  
                   <div style={{ 
                     display: 'flex',
                     flexWrap: 'wrap',
@@ -381,7 +378,34 @@ const HospitalMap = () => {
                     </span>
                   </div>
                 </div>
-                
+            {/* AQUÍ AGREGA EL SELECTOR DE AÑO Y MES */}
+                <div style={{ display: 'flex', gap: '10px', marginBottom: '15px' }}>
+                  <div>
+                    <label style={{ fontWeight: 500, marginRight: 5 }}>Año:</label>
+                    <input
+                      type="number"
+                      min="2000"
+                      max={new Date().getFullYear() + 2}
+                      value={selectedYear}
+                      onChange={e => setSelectedYear(Number(e.target.value))}
+                      style={{ width: 80, padding: '5px', borderRadius: '4px', border: '1px solid #ccc' }}
+                    />
+                  </div>
+                  <div>
+                    <label style={{ fontWeight: 500, marginRight: 5 }}>Mes:</label>
+                    <select
+                      value={selectedMonth}
+                      onChange={e => setSelectedMonth(Number(e.target.value))}
+                      style={{ padding: '5px', borderRadius: '4px', border: '1px solid #ccc' }}
+                    >
+                      {[...Array(12)].map((_, i) => (
+                        <option key={i + 1} value={i + 1}>
+                          {i + 1}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
                 <button
                   onClick={handleShowSpecialties}
                   style={{

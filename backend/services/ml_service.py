@@ -2,12 +2,19 @@ import json
 import os
 from models.predictor import predict_specialists, le_centro
 
+print(le_centro.classes_)
+
 def get_centro_by_id(centro_id):
     data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'lima_hospitals.geojson')
     with open(data_path, encoding='utf-8') as f:
         data = json.load(f)
     for feature in data['features']:
-        if feature.get('id') == centro_id or feature['properties'].get('@id') == centro_id:
+        if (
+            feature.get('id') == centro_id or
+            feature.get('properties', {}).get('@id') == centro_id or
+            feature.get('properties', {}).get('id') == centro_id or
+            feature.get('properties', {}).get('name') == centro_id
+        ):
             return feature
     return None
 
