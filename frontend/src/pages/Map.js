@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useCallback } from 'react';
+import React, { useEffect, useState, useRef, useCallback, use } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -25,24 +25,23 @@ const HospitalMap = () => {
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth() + 1);
   const [selectedSpecialty, setSelectedSpecialty] = useState('');
+  const [allSpecialties, setAllSpecialties] = useState([]);
 
-  // Datos ficticios de especialidades (sin coordenadas)
-  const specialtiesTemplate = {
-    "SISOL Salud Ate": [
-      { name: "Cardiología", doctorsNeeded: 2 },
-      { name: "Pediatría", doctorsNeeded: 3 },
-      { name: "Ginecología", doctorsNeeded: 1 },
-      { name: "Traumatología", doctorsNeeded: 4 },
-      { name: "Neurología", doctorsNeeded: 2 }
-    ],
-    "Hospital Nacional Edgardo Rebagliati Martins": [
-      { name: "Oncología", doctorsNeeded: 3 },
-      { name: "Dermatología", doctorsNeeded: 1 },
-      { name: "Oftalmología", doctorsNeeded: 2 },
-      { name: "Psiquiatría", doctorsNeeded: 1 },
-      { name: "Urología", doctorsNeeded: 2 }
-    ]
-  };
+
+  useEffect(() => {
+    // Cargar datos de especialidades desde el backend
+    fetch('http://localhost:5000/api/predicciones/especialidades')
+      .then(res => res.json())
+      .then(json => {
+        setAllSpecialties(json.especialidades || []);
+        // LOG: Verifica los datos de especialidades
+        console.log('Datos de especialidades:', json.especialidades);
+      })
+      .catch(err => {
+        // LOG: Verifica si hubo un error al cargar los datos
+        console.error('Error al cargar datos de especialidades:', err);
+      });
+  }, []);
 
   // Cargar datos desde el backend
   useEffect(() => {
@@ -130,7 +129,13 @@ const HospitalMap = () => {
 
   const handleShowSpecialties = async () => {
     setShowSpecialties(!showSpecialties);
+
+    // Solo intenta predecir si se va a mostrar y hay hospital y especialidad seleccionada
     if (!showSpecialties && selectedHospital) {
+      if(!selectedSpecialty) {
+        alert('Seleccione una especialidad para predecir.');
+        return;
+      }
       setLoadingPrediction(true);
 
       // LOG: Verifica qué datos envías al backend
@@ -420,13 +425,8 @@ const HospitalMap = () => {
                     style={{ padding: '5px', borderRadius: '4px', border: '1px solid #ccc' }}
                   >
                     <option value="">Seleccione una especialidad</option>
-                    {/* Especialidades fijas */}
-                    <option value="Consulta externa">Consulta externa</option>
-                    <option value="Diagnósticos del embarazo">Diagnósticos del embarazo</option>
-                    <option value="Atención prenatal">Atención prenatal</option>
-                    {/* Especialidades del hospital */}
-                    {(selectedHospital.specialties || []).map((specialty, idx) => (
-                      <option key={idx} value={specialty.name}>{specialty.name}</option>
+                    {allSpecialties.map((specialty, idx) => (
+                      <option key={idx} value={specialty}>{specialty}</option>
                     ))}
                   </select>
                 </div>

@@ -1,8 +1,9 @@
 import json
 import os
-from models.predictor import predict_specialists, le_centro
+from models.predictor import predict_specialists, le_centro, le_esp
 
-print(le_centro.classes_)
+print("Especialidades reconocidas:", le_esp.classes_)
+print("Centros de salud reconocidos:", le_centro.classes_)
 
 def get_centro_by_id(centro_id):
     data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'lima_hospitals.geojson')

@@ -8,13 +8,13 @@ export const fetchSpecialties = async (hospitalName) => {
     return response.json();
 };
 
-export const fetchPrediction = async ({ year, month, centro_salud }) => {
+export const fetchPrediction = async ({ year, month, centro_salud, especialidad }) => {
     const response = await fetch('/api/predicciones/predict', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ year, month, centro_salud }),
+        body: JSON.stringify({ year, month, centro_salud, especialidad }),
     });
     return response.json();
 };
