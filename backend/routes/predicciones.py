@@ -9,8 +9,9 @@ def predict():
     year = data.get('year')
     month = data.get('month')
     centro_salud = data.get('centro_salud')
+    especialidad = data.get('especialidad')
 
-    result = predecir_necesidades(centro_salud, year, month)
+    result = predecir_necesidades(centro_salud, especialidad, year, month)
     if 'error' in result:
         return jsonify(result), 400
     return jsonify({'prediction': result})

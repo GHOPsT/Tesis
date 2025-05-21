@@ -18,16 +18,16 @@ def get_centro_by_id(centro_id):
             return feature
     return None
 
-def predecir_necesidades(centro_id, year, month):
+def predecir_necesidades(centro_id, especialidad, year, month):
     centro = get_centro_by_id(centro_id)
     if not centro:
         return {"error": "Centro de salud no encontrado."}
 
-    nombre_centro = centro['properties']['name']
+    nombre_centro = centro['properties']['ipress']
 
     # Validar si el centro está en el encoder
     if nombre_centro not in le_centro.classes_:
         return {"error": f"El centro '{nombre_centro}' no está registrado en el modelo."}
 
-    necesidades = predict_specialists(year, month, nombre_centro)
+    necesidades = predict_specialists(year, month, nombre_centro, especialidad)
     return necesidades

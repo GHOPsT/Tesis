@@ -24,6 +24,7 @@ const HospitalMap = () => {
   const [loadingPrediction, setLoadingPrediction] = useState(false);
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth() + 1);
+  const [selectedSpecialty, setSelectedSpecialty] = useState('');
 
   // Datos ficticios de especialidades (sin coordenadas)
   const specialtiesTemplate = {
@@ -136,14 +137,16 @@ const HospitalMap = () => {
       console.log('Enviando al backend:', {
         year: selectedYear,
         month: selectedMonth,
-        centro_salud: selectedHospital.name
+        centro_salud: selectedHospital.name,
+        especialidad: selectedSpecialty
       });
 
       try {
         const result = await fetchPrediction({
           year: selectedYear,
           month: selectedMonth,
-          centro_salud: selectedHospital.name
+          centro_salud: selectedHospital.name,
+          especialidad: selectedSpecialty
         });
 
       // LOG: Verifica la respuesta del backend
@@ -158,6 +161,8 @@ const HospitalMap = () => {
       
       }
       setLoadingPrediction(false);
+    } else if (!selectedSpecialty) {
+      alert('Seleccione una especialidad para predecir.');
     }
   };
 
@@ -406,6 +411,26 @@ const HospitalMap = () => {
                     </select>
                   </div>
                 </div>
+                {/* Selector de especialidad */}
+                <div style={{ marginBottom: '15px' }}>
+                  <label style={{ fontWeight: 500, marginRight: 5 }}>Especialidad:</label>
+                  <select
+                    value={selectedSpecialty}
+                    onChange={e => setSelectedSpecialty(e.target.value)}
+                    style={{ padding: '5px', borderRadius: '4px', border: '1px solid #ccc' }}
+                  >
+                    <option value="">Seleccione una especialidad</option>
+                    {/* Especialidades fijas */}
+                    <option value="Consulta externa">Consulta externa</option>
+                    <option value="Diagnósticos del embarazo">Diagnósticos del embarazo</option>
+                    <option value="Atención prenatal">Atención prenatal</option>
+                    {/* Especialidades del hospital */}
+                    {(selectedHospital.specialties || []).map((specialty, idx) => (
+                      <option key={idx} value={specialty.name}>{specialty.name}</option>
+                    ))}
+                  </select>
+                </div>
+
                 <button
                   onClick={handleShowSpecialties}
                   style={{
