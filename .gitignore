@@ -1,0 +1,15 @@
+# Excluir toda la carpeta dataAtenciones
+dataAtenciones/
+
+# Excluir archivos específicos de datos
+data_modelo_profesionales.*
+dataAtenciones_con_especialidad.*
+dataAtenciones_unificado.parquet
+cod_ipress_ipress.csv
+df_cod_servicio_desc.csv
+servicios_con_especialidades.csv
+
+# Excluir archivos de modelos de machine learning
+
+
+# Excluir archivos de configuración local o sensible
