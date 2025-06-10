@@ -1,5 +1,7 @@
 # Excluir toda la carpeta dataAtenciones
 dataAtenciones/
+modeloRFv2/
+modeloRFv3/
 
 # Excluir archivos específicos de datos
 data_modelo_profesionales.*
