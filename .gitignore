@@ -8,6 +8,7 @@ dataAtenciones_unificado.parquet
 cod_ipress_ipress.csv
 df_cod_servicio_desc.csv
 servicios_con_especialidades.csv
+modelo_rf_profesionales_simple.joblib
 
 # Excluir archivos de modelos de machine learning
 
