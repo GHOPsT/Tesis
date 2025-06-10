@@ -2,9 +2,9 @@ from joblib import load
 import pandas as pd
 
 # Carga el modelo y los codificadores de etiquetas guardados
-model = load('./ml/modeloRF/modelo_random_forest.pkl')
-le_centro = load('./ml/modeloRF/label_encoder_centro.pkl')
-le_esp = load('./ml/modeloRF/label_encoder_especialidad.pkl')
+model = load('./ml/modeloRFv2/modelo_rf_profesionales_simple.joblib')
+le_centro = load('./ml/modeloRFv2/le_ipress_simple.joblib')
+le_esp = load('./ml/modeloRFv2/le_especialidad_simple.joblib')
 
 def predict_specialists(year, month, centro_salud, especialidad):
     print("Especialidaddes reconocidas:", le_esp.classes_)
