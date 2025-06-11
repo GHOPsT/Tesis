@@ -4,6 +4,7 @@ modeloRF/
 modeloRFv2/
 modeloRFv3/
 modeloRFv4/
+_pycache_/
 
 # Excluir archivos específicos de datos
 data_modelo_profesionales.*
