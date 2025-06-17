@@ -30,7 +30,7 @@ const HospitalMap = () => {
 
   useEffect(() => {
     // Cargar datos de especialidades desde el backend
-    fetch('http://localhost:5000/api/predicciones/especialidades')
+    fetch('http://localhost:5000/api/especialidades')
       .then(res => res.json())
       .then(json => {
         setAllSpecialties(json.especialidades || []);
